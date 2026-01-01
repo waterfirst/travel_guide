@@ -76,11 +76,17 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
               className="bg-white rounded-lg sm:rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden text-left group active:scale-98"
             >
               {/* Thumbnail */}
-              <div className="h-36 sm:h-40 lg:h-48 bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-3xl sm:text-4xl lg:text-5xl">
+              <div className="h-36 sm:h-40 lg:h-48 relative overflow-hidden">
+                <img
+                  src={course.thumbnail}
+                  alt={course.title}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                <div className="absolute top-2 sm:top-3 left-2 sm:left-3 text-3xl sm:text-4xl drop-shadow-lg">
                   {info.icon}
                 </div>
-                <div className="absolute top-2 sm:top-3 right-2 sm:right-3 bg-white px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-semibold text-gray-700">
+                <div className="absolute top-2 sm:top-3 right-2 sm:right-3 bg-white/90 backdrop-blur-sm px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-semibold text-gray-700 shadow-lg">
                   {course.duration}
                 </div>
               </div>

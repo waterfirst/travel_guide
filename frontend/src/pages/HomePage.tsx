@@ -11,7 +11,8 @@ const travelTypes = [
     title: '퇴근 후 불멍',
     subtitle: '친구 2-3명과 당일치기',
     description: '퇴근 후 부담 없이 떠나는 불멍 & 담소 코스',
-    color: 'bg-gradient-to-br from-orange-400 to-red-500'
+    color: 'bg-gradient-to-br from-orange-400 to-red-500',
+    image: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=600&q=80'
   },
   {
     type: 'spa-day' as const,
@@ -19,7 +20,8 @@ const travelTypes = [
     title: '부모님과 온천',
     subtitle: '당일치기 효도 여행',
     description: '온천욕과 맛있는 식사를 함께하는 코스',
-    color: 'bg-gradient-to-br from-blue-400 to-cyan-500'
+    color: 'bg-gradient-to-br from-blue-400 to-cyan-500',
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=80'
   },
   {
     type: 'spa-overnight' as const,
@@ -27,7 +29,8 @@ const travelTypes = [
     title: '1박2일 온천 힐링',
     subtitle: '온천과 휴식에 집중',
     description: '여유롭게 온천을 즐기는 힐링 여행',
-    color: 'bg-gradient-to-br from-purple-400 to-pink-500'
+    color: 'bg-gradient-to-br from-purple-400 to-pink-500',
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80'
   },
   {
     type: 'solo-drive' as const,
@@ -35,7 +38,8 @@ const travelTypes = [
     title: '혼자 떠나는 드라이브',
     subtitle: '자차로 자유롭게',
     description: '혼자만의 시간을 즐기는 드라이브 코스',
-    color: 'bg-gradient-to-br from-green-400 to-teal-500'
+    color: 'bg-gradient-to-br from-green-400 to-teal-500',
+    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&q=80'
   }
 ]
 
@@ -62,14 +66,26 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
             <button
               key={travelType.type}
               onClick={() => onTypeSelect(travelType.type)}
-              className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 active:scale-95 sm:hover:scale-105"
+              className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 active:scale-95 sm:hover:scale-105 h-full min-h-[200px] sm:min-h-[220px]"
             >
-              <div className={`${travelType.color} p-5 sm:p-6 lg:p-8 text-white h-full min-h-[180px] sm:min-h-[200px]`}>
-                <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4">{travelType.icon}</div>
-                <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">{travelType.title}</h2>
-                <p className="text-xs sm:text-sm opacity-90 mb-2 sm:mb-3">{travelType.subtitle}</p>
-                <p className="text-xs sm:text-sm opacity-80 line-clamp-2">{travelType.description}</p>
-                <div className="mt-4 sm:mt-6 flex items-center text-xs sm:text-sm font-semibold">
+              {/* Background Image */}
+              <img
+                src={travelType.image}
+                alt={travelType.title}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              {/* Gradient Overlay */}
+              <div className={`absolute inset-0 ${travelType.color} opacity-80 group-hover:opacity-70 transition-opacity`}></div>
+
+              {/* Content */}
+              <div className="relative p-5 sm:p-6 lg:p-8 text-white h-full flex flex-col justify-between">
+                <div>
+                  <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 drop-shadow-xl">{travelType.icon}</div>
+                  <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2 drop-shadow-lg">{travelType.title}</h2>
+                  <p className="text-xs sm:text-sm opacity-95 mb-2 sm:mb-3 drop-shadow-md">{travelType.subtitle}</p>
+                  <p className="text-xs sm:text-sm opacity-90 line-clamp-2 drop-shadow-md">{travelType.description}</p>
+                </div>
+                <div className="mt-4 flex items-center text-xs sm:text-sm font-semibold drop-shadow-lg">
                   코스 보기
                   <svg
                     className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform"

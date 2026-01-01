@@ -4,7 +4,7 @@
     "type": "bonfire",
     "title": "가평 무지개 독채펜션&글램핑 - 퇴근 후 불멍 코스",
     "description": "평일 교통이 원활하여 퇴근 후에도 부담 없이 방문할 수 있는 불멍 명소. 계곡 근처에서 친구들과 담소를 나누기 좋은 곳입니다.",
-    "thumbnail": "/images/bonfire-1.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80",
     "duration": "3-4시간",
     "distance": 65,
     "estimatedCost": {
@@ -28,9 +28,21 @@
         "description": "계곡 근처에서 모닥불을 피우며 친구들과 여유로운 시간을 보냅니다."
       }
     ],
-    "restaurants": ["restaurant-1", "restaurant-2"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["불멍", "캠핑", "친구", "당일치기", "바베큐"],
+    "restaurants": [
+      "restaurant-1",
+      "restaurant-2"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "불멍",
+      "캠핑",
+      "친구",
+      "당일치기",
+      "바베큐"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -39,7 +51,7 @@
     "type": "bonfire",
     "title": "가평 글램탐다오 - 이국적 분위기 불멍",
     "description": "야자수와 풀장이 어우러진 이국적인 분위기에서 독립 BBQ 시설과 불멍 화로를 즐길 수 있는 프리미엄 글램핑장.",
-    "thumbnail": "/images/bonfire-2.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
     "duration": "3-4시간",
     "distance": 70,
     "estimatedCost": {
@@ -63,9 +75,21 @@
         "description": "이국적인 분위기의 글램핑장에서 독립 BBQ와 불멍을 즐깁니다."
       }
     ],
-    "restaurants": ["restaurant-1", "restaurant-3"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["불멍", "글램핑", "프리미엄", "친구", "당일치기"],
+    "restaurants": [
+      "restaurant-1",
+      "restaurant-3"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "불멍",
+      "글램핑",
+      "프리미엄",
+      "친구",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -74,7 +98,7 @@
     "type": "bonfire",
     "title": "포천 마루 글램핑 카라반 - 초보자 친화",
     "description": "숯불, 장작, 불멍 도구가 모두 준비되어 있어 초보자도 편하게 불멍을 즐길 수 있는 곳. 친절한 직원 응대가 장점입니다.",
-    "thumbnail": "/images/bonfire-3.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1537565732832-b59cb0b85a3e?w=800&q=80",
     "duration": "3-4시간",
     "distance": 55,
     "estimatedCost": {
@@ -98,9 +122,21 @@
         "description": "모든 장비가 준비되어 있어 편하게 불멍을 즐길 수 있습니다."
       }
     ],
-    "restaurants": ["restaurant-4", "restaurant-5"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["불멍", "글램핑", "초보자", "친구", "당일치기"],
+    "restaurants": [
+      "restaurant-4",
+      "restaurant-5"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "불멍",
+      "글램핑",
+      "초보자",
+      "친구",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -109,7 +145,7 @@
     "type": "bonfire",
     "title": "화성 글램비 글램핑 - 수영장이 있는 고급 글램핑",
     "description": "고급형 텐트와 불멍, 바비큐, 미온수 수영장까지 갖춘 프리미엄 글램핑장. 다채로운 경험을 원하는 분들께 추천합니다.",
-    "thumbnail": "/images/bonfire-4.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1532339142463-fd0a8979791a?w=800&q=80",
     "duration": "4-5시간",
     "distance": 60,
     "estimatedCost": {
@@ -133,9 +169,20 @@
         "description": "미온수 수영장과 불멍을 함께 즐길 수 있는 프리미엄 공간입니다."
       }
     ],
-    "restaurants": ["restaurant-6", "restaurant-7"],
-    "bestWeather": ["clear"],
-    "tags": ["불멍", "글램핑", "수영장", "프리미엄", "당일치기"],
+    "restaurants": [
+      "restaurant-6",
+      "restaurant-7"
+    ],
+    "bestWeather": [
+      "clear"
+    ],
+    "tags": [
+      "불멍",
+      "글램핑",
+      "수영장",
+      "프리미엄",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -144,7 +191,7 @@
     "type": "bonfire",
     "title": "평택 진위천 유원지 쉼터 - 무료 캠프닉",
     "description": "주차비 3,000원만으로 무료로 불멍을 즐길 수 있는 가성비 최고의 장소. 캠핑 장비를 모두 사용할 수 있습니다.",
-    "thumbnail": "/images/bonfire-5.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&q=80",
     "duration": "2-3시간",
     "distance": 75,
     "estimatedCost": {
@@ -168,9 +215,21 @@
         "description": "가성비 좋은 무료 캠프닉 장소에서 불멍을 즐깁니다."
       }
     ],
-    "restaurants": ["restaurant-8", "restaurant-9"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["불멍", "캠프닉", "무료", "가성비", "당일치기"],
+    "restaurants": [
+      "restaurant-8",
+      "restaurant-9"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "불멍",
+      "캠프닉",
+      "무료",
+      "가성비",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -179,7 +238,7 @@
     "type": "spa-day",
     "title": "이천 테르메덴 & 쌀밥정식 코스",
     "description": "한국 최대 규모의 독일식 온천 리조트. 이천 쌀밥정식과 함께 부모님과 편안한 하루를 보낼 수 있는 완벽한 코스입니다.",
-    "thumbnail": "/images/spa-day-1.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&q=80",
     "duration": "5-6시간",
     "distance": 58,
     "estimatedCost": {
@@ -218,9 +277,23 @@
         "description": "이천 쌀로 만든 맛있는 정식을 즐깁니다."
       }
     ],
-    "restaurants": ["restaurant-10", "restaurant-11"],
-    "bestWeather": ["clear", "cloudy", "rainy", "snowy"],
-    "tags": ["온천", "당일치기", "부모님", "식사", "힐링"],
+    "restaurants": [
+      "restaurant-10",
+      "restaurant-11"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy",
+      "rainy",
+      "snowy"
+    ],
+    "tags": [
+      "온천",
+      "당일치기",
+      "부모님",
+      "식사",
+      "힐링"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -229,7 +302,7 @@
     "type": "spa-day",
     "title": "화성 율암온천 & 한정식 코스",
     "description": "100% 천연 게르마늄 온천수로 유명한 율암온천. 서울에서 40분 거리로 접근성이 좋고, 근처 한정식이 훌륭합니다.",
-    "thumbnail": "/images/spa-day-2.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
     "duration": "4-5시간",
     "distance": 45,
     "estimatedCost": {
@@ -268,9 +341,23 @@
         "description": "정성스럽게 차려진 한정식을 맛봅니다."
       }
     ],
-    "restaurants": ["restaurant-12", "restaurant-13"],
-    "bestWeather": ["clear", "cloudy", "rainy", "snowy"],
-    "tags": ["온천", "당일치기", "부모님", "게르마늄", "한정식"],
+    "restaurants": [
+      "restaurant-12",
+      "restaurant-13"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy",
+      "rainy",
+      "snowy"
+    ],
+    "tags": [
+      "온천",
+      "당일치기",
+      "부모님",
+      "게르마늄",
+      "한정식"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -279,7 +366,7 @@
     "type": "spa-day",
     "title": "포천 신북온천 & 이동갈비 코스",
     "description": "100년 역사의 효능 좋은 온천수와 포천 명물 이동갈비를 즐길 수 있는 코스. 산정호수 구경도 덤으로 즐길 수 있습니다.",
-    "thumbnail": "/images/spa-day-3.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
     "duration": "5-6시간",
     "distance": 62,
     "estimatedCost": {
@@ -333,9 +420,22 @@
         "description": "포천의 명물 이동갈비를 맛봅니다."
       }
     ],
-    "restaurants": ["restaurant-14", "restaurant-15"],
-    "bestWeather": ["clear", "cloudy", "rainy"],
-    "tags": ["온천", "당일치기", "부모님", "갈비", "호수"],
+    "restaurants": [
+      "restaurant-14",
+      "restaurant-15"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy",
+      "rainy"
+    ],
+    "tags": [
+      "온천",
+      "당일치기",
+      "부모님",
+      "갈비",
+      "호수"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -344,7 +444,7 @@
     "type": "spa-day",
     "title": "석모도 미네랄온천 & 강화도 맛집 코스",
     "description": "바다 앞 노천탕에서 일몰을 감상하며 온천욕을 즐기고, 강화도 새우젓정식을 맛보는 가성비 최고의 코스입니다.",
-    "thumbnail": "/images/spa-day-4.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1598529796138-a19f35e7c71d?w=800&q=80",
     "duration": "6-7시간",
     "distance": 78,
     "estimatedCost": {
@@ -383,9 +483,21 @@
         "description": "강화도 특산물로 만든 건강한 식사를 즐깁니다."
       }
     ],
-    "restaurants": ["restaurant-16", "restaurant-17"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["온천", "당일치기", "부모님", "바다", "가성비"],
+    "restaurants": [
+      "restaurant-16",
+      "restaurant-17"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "온천",
+      "당일치기",
+      "부모님",
+      "바다",
+      "가성비"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -394,7 +506,7 @@
     "type": "spa-day",
     "title": "양평 블룸비스타 스파 & 두물머리 코스",
     "description": "프라이빗 고급 스파를 즐기고, 두물머리 강변을 산책하며 양평 한우를 맛보는 여유로운 코스입니다.",
-    "thumbnail": "/images/spa-day-5.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=800&q=80",
     "duration": "5-6시간",
     "distance": 52,
     "estimatedCost": {
@@ -448,9 +560,21 @@
         "description": "고급스러운 양평 한우를 맛봅니다."
       }
     ],
-    "restaurants": ["restaurant-18", "restaurant-19"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["온천", "당일치기", "부모님", "프리미엄", "한우"],
+    "restaurants": [
+      "restaurant-18",
+      "restaurant-19"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "온천",
+      "당일치기",
+      "부모님",
+      "프리미엄",
+      "한우"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -459,7 +583,7 @@
     "type": "spa-overnight",
     "title": "이천 테르메덴 1박2일 힐링 코스",
     "description": "독일식 스파와 워터파크를 무제한 즐기며 완벽한 힐링을 경험하는 1박2일 코스. 리조트 뷔페와 이천 한정식도 함께 즐길 수 있습니다.",
-    "thumbnail": "/images/spa-overnight-1.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
     "duration": "1박2일",
     "distance": 58,
     "estimatedCost": {
@@ -528,10 +652,26 @@
         "description": "이천 쌀로 만든 한정식으로 점심을 먹고 귀가합니다."
       }
     ],
-    "restaurants": ["restaurant-10", "restaurant-11"],
-    "accommodations": ["accommodation-1"],
-    "bestWeather": ["clear", "cloudy", "rainy", "snowy"],
-    "tags": ["온천", "1박2일", "힐링", "리조트", "프리미엄"],
+    "restaurants": [
+      "restaurant-10",
+      "restaurant-11"
+    ],
+    "accommodations": [
+      "accommodation-1"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy",
+      "rainy",
+      "snowy"
+    ],
+    "tags": [
+      "온천",
+      "1박2일",
+      "힐링",
+      "리조트",
+      "프리미엄"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -540,7 +680,7 @@
     "type": "spa-overnight",
     "title": "포천 신북온천 1박2일 자연 힐링",
     "description": "100년 역사의 온천과 산정호수, 아트밸리 등 포천의 자연을 만끽하는 1박2일 힐링 여행.",
-    "thumbnail": "/images/spa-overnight-2.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
     "duration": "1박2일",
     "distance": 62,
     "estimatedCost": {
@@ -609,10 +749,24 @@
         "description": "아침 일찍 산정호수를 산책하며 신선한 공기를 마십니다."
       }
     ],
-    "restaurants": ["restaurant-14", "restaurant-15"],
-    "accommodations": ["accommodation-2"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["온천", "1박2일", "힐링", "자연", "호수"],
+    "restaurants": [
+      "restaurant-14",
+      "restaurant-15"
+    ],
+    "accommodations": [
+      "accommodation-2"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "온천",
+      "1박2일",
+      "힐링",
+      "자연",
+      "호수"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -621,7 +775,7 @@
     "type": "spa-overnight",
     "title": "화성 율암온천 & 제부도 1박2일",
     "description": "게르마늄 온천과 제부도의 신비로운 바닷길을 경험하는 1박2일 코스. 바다와 온천을 함께 즐길 수 있습니다.",
-    "thumbnail": "/images/spa-overnight-3.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
     "duration": "1박2일",
     "distance": 68,
     "estimatedCost": {
@@ -690,10 +844,24 @@
         "description": "아침 온천 후 체크아웃합니다."
       }
     ],
-    "restaurants": ["restaurant-12", "restaurant-13"],
-    "accommodations": ["accommodation-3"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["온천", "1박2일", "힐링", "바다", "제부도"],
+    "restaurants": [
+      "restaurant-12",
+      "restaurant-13"
+    ],
+    "accommodations": [
+      "accommodation-3"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "온천",
+      "1박2일",
+      "힐링",
+      "바다",
+      "제부도"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -702,7 +870,7 @@
     "type": "spa-overnight",
     "title": "양평 블룸비스타 스파 1박2일 럭셔리",
     "description": "프라이빗 고급 스파와 두물머리, 세미원, 레일바이크를 즐기는 럭셔리 1박2일 여행.",
-    "thumbnail": "/images/spa-overnight-4.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?w=800&q=80",
     "duration": "1박2일",
     "distance": 52,
     "estimatedCost": {
@@ -771,10 +939,24 @@
         "description": "아름다운 연꽃정원 세미원을 구경합니다."
       }
     ],
-    "restaurants": ["restaurant-18", "restaurant-19"],
-    "accommodations": ["accommodation-4"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["온천", "1박2일", "힐링", "럭셔리", "호텔"],
+    "restaurants": [
+      "restaurant-18",
+      "restaurant-19"
+    ],
+    "accommodations": [
+      "accommodation-4"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "온천",
+      "1박2일",
+      "힐링",
+      "럭셔리",
+      "호텔"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -783,7 +965,7 @@
     "type": "spa-overnight",
     "title": "가평 온천 & 남이섬 1박2일",
     "description": "가평 온천 리조트와 남이섬, 자라섬, 아침고요수목원을 둘러보는 낭만적인 1박2일 여행.",
-    "thumbnail": "/images/spa-overnight-5.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
     "duration": "1박2일",
     "distance": 68,
     "estimatedCost": {
@@ -852,10 +1034,24 @@
         "description": "아름다운 수목원을 산책하며 자연을 만끽합니다."
       }
     ],
-    "restaurants": ["restaurant-1", "restaurant-2"],
-    "accommodations": ["accommodation-5"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["온천", "1박2일", "힐링", "남이섬", "수목원"],
+    "restaurants": [
+      "restaurant-1",
+      "restaurant-2"
+    ],
+    "accommodations": [
+      "accommodation-5"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "온천",
+      "1박2일",
+      "힐링",
+      "남이섬",
+      "수목원"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -864,7 +1060,7 @@
     "type": "solo-drive",
     "title": "안산 시화방조제 & 대부도 드라이브",
     "description": "11.2km의 시화방조제를 달리며 서해 바다와 시화호의 파노라마를 감상하고, 달전망대에서 일몰을 즐기는 드라이브 코스.",
-    "thumbnail": "/images/solo-drive-1.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80",
     "duration": "3-4시간",
     "distance": 78,
     "estimatedCost": {
@@ -918,9 +1114,21 @@
         "description": "대부도의 신선한 해산물을 맛봅니다."
       }
     ],
-    "restaurants": ["restaurant-20", "restaurant-21"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["드라이브", "혼자여행", "바다", "일몰", "당일치기"],
+    "restaurants": [
+      "restaurant-20",
+      "restaurant-21"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "드라이브",
+      "혼자여행",
+      "바다",
+      "일몰",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -929,7 +1137,7 @@
     "type": "solo-drive",
     "title": "양평 두물머리 강변길 드라이브",
     "description": "양수리부터 수입리까지 이어지는 강변 드라이브의 명소. 붉은 노을과 어우러진 강변 풍경이 아름다운 코스입니다.",
-    "thumbnail": "/images/solo-drive-2.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     "duration": "4-5시간",
     "distance": 55,
     "estimatedCost": {
@@ -998,9 +1206,21 @@
         "description": "건강한 더덕정식을 즐깁니다."
       }
     ],
-    "restaurants": ["restaurant-18", "restaurant-19"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["드라이브", "혼자여행", "강변", "일몰", "당일치기"],
+    "restaurants": [
+      "restaurant-18",
+      "restaurant-19"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "드라이브",
+      "혼자여행",
+      "강변",
+      "일몰",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -1009,7 +1229,7 @@
     "type": "solo-drive",
     "title": "파주 자유로 & 헤이리 예술마을",
     "description": "자유로를 달리며 해방감을 느끼고, 헤이리 예술마을과 출판도시, 오두산통일전망대를 둘러보는 문화 드라이브 코스.",
-    "thumbnail": "/images/solo-drive-3.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
     "duration": "5-6시간",
     "distance": 62,
     "estimatedCost": {
@@ -1078,9 +1298,21 @@
         "description": "파주 특산 장단콩 두부를 맛봅니다."
       }
     ],
-    "restaurants": ["restaurant-22", "restaurant-23"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["드라이브", "혼자여행", "문화", "예술", "당일치기"],
+    "restaurants": [
+      "restaurant-22",
+      "restaurant-23"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "드라이브",
+      "혼자여행",
+      "문화",
+      "예술",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -1089,7 +1321,7 @@
     "type": "solo-drive",
     "title": "화성 화옹방조제 & 제부도 드라이브",
     "description": "10km의 직선 도로 화옹방조제를 달리고, 제부도 바닷길과 궁평항 일몰을 즐기는 바다 드라이브 코스.",
-    "thumbnail": "/images/solo-drive-4.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80",
     "duration": "4-5시간",
     "distance": 72,
     "estimatedCost": {
@@ -1123,7 +1355,7 @@
           "entryFee": 0
         },
         "activity": "제부도 바닷길 체험",
-          "duration": "1-2시간",
+        "duration": "1-2시간",
         "cost": 0,
         "description": "물이 갈라지는 신비로운 바닷길을 걸어봅니다."
       },
@@ -1158,9 +1390,21 @@
         "description": "신선한 해산물로 저녁을 먹습니다."
       }
     ],
-    "restaurants": ["restaurant-24", "restaurant-25"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["드라이브", "혼자여행", "바다", "일몰", "당일치기"],
+    "restaurants": [
+      "restaurant-24",
+      "restaurant-25"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "드라이브",
+      "혼자여행",
+      "바다",
+      "일몰",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   },
@@ -1169,7 +1413,7 @@
     "type": "solo-drive",
     "title": "남양주 광릉수목원로 & 국립수목원",
     "description": "키 큰 가로수길을 달리며 자연을 만끽하고, 국립수목원과 봉선사를 방문하는 힐링 드라이브 코스.",
-    "thumbnail": "/images/solo-drive-5.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
     "duration": "4-5시간",
     "distance": 48,
     "estimatedCost": {
@@ -1238,9 +1482,21 @@
         "description": "건강한 식사를 즐깁니다."
       }
     ],
-    "restaurants": ["restaurant-26", "restaurant-27"],
-    "bestWeather": ["clear", "cloudy"],
-    "tags": ["드라이브", "혼자여행", "자연", "수목원", "당일치기"],
+    "restaurants": [
+      "restaurant-26",
+      "restaurant-27"
+    ],
+    "bestWeather": [
+      "clear",
+      "cloudy"
+    ],
+    "tags": [
+      "드라이브",
+      "혼자여행",
+      "자연",
+      "수목원",
+      "당일치기"
+    ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "updatedAt": "2026-01-01T00:00:00.000Z"
   }

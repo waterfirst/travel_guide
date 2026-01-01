@@ -76,15 +76,23 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
       <main className="max-w-5xl mx-auto px-3 sm:px-4 lg:px-8 py-4 sm:py-6 lg:py-8">
         {/* Course Header */}
         <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg overflow-hidden mb-4 sm:mb-6">
-          <div className="h-48 sm:h-56 lg:h-64 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white px-4">
-            <div className="text-center">
-              <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4">
-                {course.type === 'bonfire' && '🔥'}
-                {course.type === 'spa-day' && '♨️'}
-                {course.type === 'spa-overnight' && '🏨'}
-                {course.type === 'solo-drive' && '🚗'}
+          <div className="h-48 sm:h-56 lg:h-64 relative overflow-hidden">
+            <img
+              src={course.thumbnail}
+              alt={course.title}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white px-4">
+              <div className="text-center">
+                <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 drop-shadow-2xl">
+                  {course.type === 'bonfire' && '🔥'}
+                  {course.type === 'spa-day' && '♨️'}
+                  {course.type === 'spa-overnight' && '🏨'}
+                  {course.type === 'solo-drive' && '🚗'}
+                </div>
+                <h1 className="text-lg sm:text-xl lg:text-2xl font-bold px-4 sm:px-6 leading-tight drop-shadow-lg">{course.title}</h1>
               </div>
-              <h1 className="text-lg sm:text-xl lg:text-2xl font-bold px-4 sm:px-6 leading-tight">{course.title}</h1>
             </div>
           </div>
           <div className="p-4 sm:p-5 lg:p-6">
