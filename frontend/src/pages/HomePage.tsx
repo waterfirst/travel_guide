@@ -78,28 +78,27 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
               <div className={`absolute inset-0 ${travelType.color} opacity-80 group-hover:opacity-70 transition-opacity`}></div>
 
               {/* Content */}
-              <div className="relative p-5 sm:p-6 lg:p-8 text-white h-full flex flex-col justify-between">
+              <div className="relative p-5 sm:p-6 lg:p-8 text-white h-full flex flex-col justify-end">
                 <div>
-                  <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 drop-shadow-xl">{travelType.icon}</div>
-                  <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2 drop-shadow-lg">{travelType.title}</h2>
-                  <p className="text-xs sm:text-sm opacity-95 mb-2 sm:mb-3 drop-shadow-md">{travelType.subtitle}</p>
-                  <p className="text-xs sm:text-sm opacity-90 line-clamp-2 drop-shadow-md">{travelType.description}</p>
-                </div>
-                <div className="mt-4 flex items-center text-xs sm:text-sm font-semibold drop-shadow-lg">
-                  코스 보기
-                  <svg
-                    className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
+                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-3 drop-shadow-lg">{travelType.title}</h2>
+                  <p className="text-sm sm:text-base opacity-95 mb-2 drop-shadow-md">{travelType.subtitle}</p>
+                  <p className="text-xs sm:text-sm opacity-90 mb-4 sm:mb-6 drop-shadow-md">{travelType.description}</p>
+                  <div className="flex items-center text-sm sm:text-base font-semibold drop-shadow-lg">
+                    코스 보기
+                    <svg
+                      className="ml-2 w-5 h-5 sm:w-6 sm:h-6 group-hover:translate-x-1 transition-transform"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </button>
@@ -112,52 +111,31 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
             이 가이드의 특징
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
-            <div className="flex items-start">
-              <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-10 w-10 sm:h-12 sm:w-12 rounded-md bg-primary text-white text-xl sm:text-2xl">
-                  🌤️
-                </div>
-              </div>
-              <div className="ml-3 sm:ml-4">
-                <h4 className="text-base sm:text-lg font-semibold text-textDark">
-                  날씨 기반 추천
-                </h4>
-                <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600">
-                  실시간 날씨를 반영하여 최적의 코스를 추천합니다
-                </p>
-              </div>
+            <div className="p-4 sm:p-5 bg-primary/5 rounded-lg border-l-4 border-primary">
+              <h4 className="text-base sm:text-lg font-bold text-textDark mb-2">
+                날씨 기반 추천
+              </h4>
+              <p className="text-sm sm:text-base text-gray-600">
+                실시간 날씨를 반영하여 최적의 코스를 추천합니다
+              </p>
             </div>
 
-            <div className="flex items-start">
-              <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-10 w-10 sm:h-12 sm:w-12 rounded-md bg-secondary text-white text-xl sm:text-2xl">
-                  💰
-                </div>
-              </div>
-              <div className="ml-3 sm:ml-4">
-                <h4 className="text-base sm:text-lg font-semibold text-textDark">
-                  예산 계산
-                </h4>
-                <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600">
-                  교통비, 입장료, 식비 등 상세한 비용 정보를 제공합니다
-                </p>
-              </div>
+            <div className="p-4 sm:p-5 bg-secondary/5 rounded-lg border-l-4 border-secondary">
+              <h4 className="text-base sm:text-lg font-bold text-textDark mb-2">
+                예산 계산
+              </h4>
+              <p className="text-sm sm:text-base text-gray-600">
+                교통비, 입장료, 식비 등 상세한 비용 정보를 제공합니다
+              </p>
             </div>
 
-            <div className="flex items-start">
-              <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-10 w-10 sm:h-12 sm:w-12 rounded-md bg-accent text-white text-xl sm:text-2xl">
-                  🗺️
-                </div>
-              </div>
-              <div className="ml-3 sm:ml-4">
-                <h4 className="text-base sm:text-lg font-semibold text-textDark">
-                  지도 & 경로
-                </h4>
-                <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600">
-                  자차 기준 상세한 경로와 지도 정보를 확인하세요
-                </p>
-              </div>
+            <div className="p-4 sm:p-5 bg-accent/5 rounded-lg border-l-4 border-accent">
+              <h4 className="text-base sm:text-lg font-bold text-textDark mb-2">
+                지도 & 경로
+              </h4>
+              <p className="text-sm sm:text-base text-gray-600">
+                자차 기준 상세한 경로와 지도 정보를 확인하세요
+              </p>
             </div>
           </div>
         </div>

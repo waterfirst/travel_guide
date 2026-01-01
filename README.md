@@ -1,14 +1,15 @@
-# 경기도 1월 여행 가이드 🗺️
+# 경기도 월간 여행 가이드 🗺️
 
 Plan - Generator - Healer 방식으로 개발된 경기도 여행 추천 웹 애플리케이션입니다.
+**매월 자동으로 새로운 여행지가 업데이트됩니다!**
 
 ## 🌟 주요 기능
 
 ### 4가지 여행 타입
-1. **🔥 퇴근 후 불멍** - 친구 2-3명과 당일치기 불멍 코스 (5개)
-2. **♨️ 부모님과 온천** - 당일치기 효도 온천 코스 (5개)
-3. **🏨 1박2일 온천 힐링** - 온천과 휴식 중심 힐링 여행 (5개)
-4. **🚗 혼자 드라이브** - 자차로 떠나는 자유로운 드라이브 (5개)
+1. **퇴근 후 불멍** - 친구 2-3명과 당일치기 불멍 코스 (5개)
+2. **부모님과 온천** - 당일치기 효도 온천 코스 (5개)
+3. **1박2일 온천 힐링** - 온천과 휴식 중심 힐링 여행 (5개)
+4. **혼자 드라이브** - 자차로 떠나는 자유로운 드라이브 (5개)
 
 ### 제공 정보
 - 📍 상세한 여행 일정 및 경로
@@ -16,7 +17,34 @@ Plan - Generator - Healer 방식으로 개발된 경기도 여행 추천 웹 애
 - 🍽️ 코스 근처 맛집 추천
 - 🏨 숙박 시설 정보 (1박2일 코스)
 - 🌤️ 날씨 기반 코스 추천
-- 🗺️ 지도 및 내비게이션 정보
+- 📷 실제 여행지 이미지 (Unsplash)
+
+## 🔄 자동 업데이트
+
+**매월 1일 00:00 UTC (한국시간 09:00)에 Gemini API를 사용하여 새로운 여행 코스가 자동 생성됩니다!**
+
+- GitHub Actions를 통한 완전 자동화
+- 계절과 월별 날씨에 맞는 여행지 추천
+- 실제 경기도 지역 기반 데이터
+
+### 수동 업데이트 방법
+
+```bash
+# 스크립트 디렉토리로 이동
+cd scripts
+
+# Gemini API 의존성 설치
+npm install @google/generative-ai
+
+# 환경변수 설정 (Windows)
+set GOOGLE_API_KEY=your_api_key_here
+
+# 환경변수 설정 (Mac/Linux)
+export GOOGLE_API_KEY=your_api_key_here
+
+# 여행지 생성 스크립트 실행
+node generate-monthly-courses.js
+```
 
 ## 🚀 데모
 
@@ -26,20 +54,24 @@ Plan - Generator - Healer 방식으로 개발된 경기도 여행 추천 웹 애
 
 ```
 travel_guide/
-├── frontend/               # React + TypeScript + Vite
+├── .github/
+│   └── workflows/
+│       ├── deploy.yml           # 배포 자동화
+│       └── monthly-update.yml   # 매월 자동 업데이트
+├── frontend/                    # React + TypeScript + Vite
 │   ├── src/
-│   │   ├── components/    # UI 컴포넌트
-│   │   ├── pages/         # 페이지 컴포넌트
-│   │   ├── types/         # TypeScript 타입 정의
-│   │   └── App.tsx        # 메인 앱
-│   └── dist/              # 빌드 결과물
-├── backend/               # Node.js + Express (향후 확장용)
-├── data/                  # 여행 코스 데이터
-│   ├── courses.json       # 20개 여행 코스
-│   ├── restaurants.json   # 맛집 정보
-│   └── accommodations.json # 숙박 정보
-├── tests/                 # Playwright E2E 테스트
-└── docs/                  # 문서
+│   │   ├── components/         # UI 컴포넌트
+│   │   ├── pages/              # 페이지 컴포넌트
+│   │   ├── types/              # TypeScript 타입 정의
+│   │   └── App.tsx             # 메인 앱
+│   └── dist/                   # 빌드 결과물
+├── scripts/                     # 자동화 스크립트
+│   └── generate-monthly-courses.js  # Gemini API로 여행지 생성
+├── data/                        # 여행 코스 데이터
+│   ├── courses.json            # 20개 여행 코스
+│   ├── restaurants.json        # 맛집 정보
+│   └── accommodations.json     # 숙박 정보
+└── docs/                        # 문서
 ```
 
 ## 🛠️ 기술 스택
@@ -50,12 +82,13 @@ travel_guide/
 - Vite 7
 - Tailwind CSS 4
 
-### Testing
-- Playwright (E2E)
+### Automation
+- Gemini 1.5 Flash API (월간 여행지 자동 생성)
+- GitHub Actions (CI/CD)
 
 ### 배포
 - GitHub Pages
-- GitHub Actions (CI/CD)
+- 자동 배포 (main 브랜치 푸시 시)
 
 ## 💻 로컬 개발
 
@@ -92,10 +125,30 @@ npm run build
 이 프로젝트는 **Plan - Generator - Healer** 방식으로 개발되었습니다:
 
 1. **Plan (계획)**: 프로젝트 요구사항 분석 및 아키텍처 설계
-2. **Generator (생성)**: 테스트 우선 개발 (TDD) 방식으로 코드 작성
-3. **Healer (치료)**: 자동화된 테스트를 통한 버그 탐지 및 수정
+2. **Generator (생성)**: Gemini API를 활용한 데이터 자동 생성
+3. **Healer (치료)**: 자동화된 워크플로우를 통한 검증 및 배포
 
-자세한 내용은 [project-plan.md](project-plan.md) 참조
+## 🗓️ 월간 업데이트 프로세스
+
+1. **매월 1일 00:00 UTC** - GitHub Actions 트리거
+2. **Gemini API 호출** - 현재 월에 적합한 여행지 생성
+3. **데이터 검증** - JSON 형식 및 필수 필드 확인
+4. **자동 커밋 & 푸시** - git commit 및 push
+5. **자동 배포** - GitHub Pages에 배포
+
+## 🔐 보안
+
+- **GOOGLE_API_KEY는 GitHub Secrets에 안전하게 저장**
+- 소스코드에는 절대 포함되지 않음
+- GitHub Actions에서만 접근 가능
+
+### Secrets 설정 방법
+
+1. GitHub 저장소 → Settings
+2. Secrets and variables → Actions
+3. New repository secret
+4. Name: `GOOGLE_API_KEY`
+5. Value: 실제 Gemini API 키 입력
 
 ## 📁 데이터 구조
 
@@ -106,6 +159,7 @@ interface Course {
   type: 'bonfire' | 'spa-day' | 'spa-overnight' | 'solo-drive';
   title: string;
   description: string;
+  thumbnail: string;  // Unsplash 이미지 URL
   duration: string;
   distance: number;
   estimatedCost: { min: number; max: number };
@@ -114,54 +168,25 @@ interface Course {
   accommodations?: string[];
   bestWeather: string[];
   tags: string[];
+  createdAt: string;
+  updatedAt: string;
 }
-```
-
-## 🗺️ 여행 코스 목록
-
-### 🔥 퇴근 후 불멍 (5개)
-1. 가평 무지개 독채펜션&글램핑
-2. 가평 글램탐다오
-3. 포천 마루 글램핑 카라반
-4. 화성 글램비 글램핑
-5. 평택 진위천 유원지 쉼터 (무료)
-
-### ♨️ 당일 온천 (5개)
-1. 이천 테르메덴 & 쌀밥정식
-2. 화성 율암온천 & 한정식
-3. 포천 신북온천 & 이동갈비
-4. 석모도 미네랄온천 & 강화도 맛집
-5. 양평 블룸비스타 스파 & 두물머리
-
-### 🏨 1박2일 온천 힐링 (5개)
-1. 이천 테르메덴 1박2일
-2. 포천 신북온천 1박2일
-3. 화성 율암온천 & 제부도
-4. 양평 블룸비스타 스파 1박2일
-5. 가평 온천 & 남이섬
-
-### 🚗 혼자 드라이브 (5개)
-1. 안산 시화방조제 & 대부도
-2. 양평 두물머리 강변길
-3. 파주 자유로 & 헤이리 예술마을
-4. 화성 화옹방조제 & 제부도
-5. 남양주 광릉수목원로 & 국립수목원
-
-## 🧪 테스트
-
-```bash
-# E2E 테스트 실행
-npm run test:e2e
-
-# 단위 테스트 실행
-npm run test:unit
 ```
 
 ## 🚢 배포
 
-GitHub Actions를 통해 자동 배포됩니다:
+### 자동 배포
 - `main` 브랜치에 push 시 자동으로 GitHub Pages에 배포
 - 배포 URL: https://waterfirst.github.io/travel_guide/
+
+### 수동 배포
+```bash
+cd frontend
+npm run build
+git add dist
+git commit -m "Build: 수동 배포"
+git push origin main
+```
 
 ## 📄 라이선스
 
@@ -170,6 +195,7 @@ ISC
 ## 👥 기여자
 
 - Claude Code Agent (개발)
+- Gemini API (월간 여행지 자동 생성)
 
 ## 📞 문의
 
@@ -177,4 +203,4 @@ ISC
 
 ---
 
-**Made with ❤️ using Plan - Generator - Healer methodology**
+**Made with ❤️ using Plan - Generator - Healer methodology + Gemini API**

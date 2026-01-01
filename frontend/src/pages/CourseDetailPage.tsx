@@ -76,51 +76,39 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
       <main className="max-w-5xl mx-auto px-3 sm:px-4 lg:px-8 py-4 sm:py-6 lg:py-8">
         {/* Course Header */}
         <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg overflow-hidden mb-4 sm:mb-6">
-          <div className="h-48 sm:h-56 lg:h-64 relative overflow-hidden">
+          <div className="h-56 sm:h-64 lg:h-72 relative overflow-hidden">
             <img
               src={course.thumbnail}
               alt={course.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-white px-4">
-              <div className="text-center">
-                <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 drop-shadow-2xl">
-                  {course.type === 'bonfire' && '🔥'}
-                  {course.type === 'spa-day' && '♨️'}
-                  {course.type === 'spa-overnight' && '🏨'}
-                  {course.type === 'solo-drive' && '🚗'}
-                </div>
-                <h1 className="text-lg sm:text-xl lg:text-2xl font-bold px-4 sm:px-6 leading-tight drop-shadow-lg">{course.title}</h1>
-              </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+              <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white drop-shadow-lg leading-tight">{course.title}</h1>
             </div>
           </div>
           <div className="p-4 sm:p-5 lg:p-6">
             <p className="text-gray-700 text-sm sm:text-base lg:text-lg mb-4 sm:mb-6">{course.description}</p>
 
             {/* Quick Info */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 lg:gap-4">
-              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg text-center">
-                <div className="text-xl sm:text-2xl mb-1 sm:mb-2">⏱️</div>
-                <div className="text-xs sm:text-sm text-gray-600">소요시간</div>
-                <div className="font-semibold text-gray-900 text-xs sm:text-base">{course.duration}</div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg">
+                <div className="text-xs sm:text-sm text-gray-600 mb-1">소요시간</div>
+                <div className="font-bold text-gray-900 text-base sm:text-lg">{course.duration}</div>
               </div>
-              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg text-center">
-                <div className="text-xl sm:text-2xl mb-1 sm:mb-2">🚗</div>
-                <div className="text-xs sm:text-sm text-gray-600">거리</div>
-                <div className="font-semibold text-gray-900 text-xs sm:text-base">{course.distance}km</div>
+              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg">
+                <div className="text-xs sm:text-sm text-gray-600 mb-1">거리</div>
+                <div className="font-bold text-gray-900 text-base sm:text-lg">{course.distance}km</div>
               </div>
-              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg text-center">
-                <div className="text-xl sm:text-2xl mb-1 sm:mb-2">💰</div>
-                <div className="text-xs sm:text-sm text-gray-600">예상 비용</div>
-                <div className="font-semibold text-gray-900 text-[10px] sm:text-xs lg:text-sm leading-tight">
-                  {formatPrice(course.estimatedCost.min)}~<br/>{formatPrice(course.estimatedCost.max)}원
+              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg">
+                <div className="text-xs sm:text-sm text-gray-600 mb-1">예상 비용</div>
+                <div className="font-bold text-gray-900 text-sm sm:text-base leading-tight">
+                  {formatPrice(course.estimatedCost.min)}~{formatPrice(course.estimatedCost.max)}원
                 </div>
               </div>
-              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg text-center">
-                <div className="text-xl sm:text-2xl mb-1 sm:mb-2">🌤️</div>
-                <div className="text-xs sm:text-sm text-gray-600">추천 날씨</div>
-                <div className="font-semibold text-gray-900 text-xs sm:text-sm">
+              <div className="bg-gray-50 p-3 sm:p-4 rounded-lg">
+                <div className="text-xs sm:text-sm text-gray-600 mb-1">추천 날씨</div>
+                <div className="font-bold text-gray-900 text-sm sm:text-base">
                   {course.bestWeather.join(', ')}
                 </div>
               </div>
@@ -142,9 +130,8 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
 
         {/* Itinerary */}
         <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-5 lg:p-6 mb-4 sm:mb-6">
-          <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-textDark mb-4 sm:mb-6 flex items-center">
-            <span className="mr-2 sm:mr-3 text-xl sm:text-2xl">📍</span>
-            <span>여행 일정</span>
+          <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-textDark mb-4 sm:mb-6 border-b-2 border-primary pb-3">
+            여행 일정
           </h2>
           <div className="space-y-4 sm:space-y-6">
             {course.itinerary.map((item, index) => (
@@ -218,9 +205,8 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
         {/* Restaurants */}
         {restaurants.length > 0 && (
           <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-5 lg:p-6 mb-4 sm:mb-6">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-textDark mb-4 sm:mb-6 flex items-center">
-              <span className="mr-2 sm:mr-3 text-xl sm:text-2xl">🍽️</span>
-              <span>추천 맛집</span>
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-textDark mb-4 sm:mb-6 border-b-2 border-secondary pb-3">
+              추천 맛집
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
               {restaurants.map((restaurant) => (
@@ -281,9 +267,8 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
         {/* Accommodations */}
         {accommodations.length > 0 && (
           <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-5 lg:p-6 mb-4 sm:mb-6">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-textDark mb-4 sm:mb-6 flex items-center">
-              <span className="mr-2 sm:mr-3 text-xl sm:text-2xl">🏨</span>
-              <span>추천 숙박</span>
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-textDark mb-4 sm:mb-6 border-b-2 border-accent pb-3">
+              추천 숙박
             </h2>
             <div className="space-y-3 sm:space-y-4">
               {accommodations.map((accommodation) => (
@@ -360,9 +345,8 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
 
         {/* Tips */}
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl sm:rounded-2xl p-4 sm:p-5 lg:p-6">
-          <h3 className="font-bold text-base sm:text-lg text-textDark mb-3 flex items-center">
-            <span className="mr-2 text-lg sm:text-xl">💡</span>
-            <span>여행 팁</span>
+          <h3 className="font-bold text-base sm:text-lg text-textDark mb-3 border-b-2 border-primary pb-2">
+            여행 팁
           </h3>
           <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
             <li className="flex items-start">

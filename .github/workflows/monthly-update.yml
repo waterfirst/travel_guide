@@ -1,0 +1,60 @@
+name: Monthly Travel Guide Update
+
+on:
+  schedule:
+    # 매월 1일 00:00 UTC (한국시간 09:00)
+    - cron: '0 0 1 * *'
+  workflow_dispatch:  # 수동 실행 가능
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm install @google/generative-ai
+
+      - name: Generate new travel courses
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          cd scripts
+          node generate-monthly-courses.js
+
+      - name: Build frontend
+        run: |
+          cd frontend
+          npm ci
+          npm run build
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/courses.json data/restaurants.json data/accommodations.json frontend/dist
+          MONTH=$(date +'%Y년 %m월')
+          git commit -m "chore: ${MONTH} 여행 가이드 자동 업데이트
+
+🤖 Generated with Gemini API
+Automated monthly update" || echo "No changes to commit"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./frontend/dist
