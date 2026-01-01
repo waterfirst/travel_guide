@@ -44,35 +44,35 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
     <div className="min-h-screen">
       {/* Header */}
       <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <h1 className="text-3xl font-bold text-textDark">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-4 sm:py-6">
+          <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-textDark">
             경기도 1월 여행 가이드
           </h1>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600">
             날씨와 상황에 맞는 최적의 여행 코스를 찾아보세요
           </p>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8 lg:py-12">
         {/* Travel Type Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
           {travelTypes.map((travelType) => (
             <button
               key={travelType.type}
               onClick={() => onTypeSelect(travelType.type)}
-              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 active:scale-95 sm:hover:scale-105"
             >
-              <div className={`${travelType.color} p-8 text-white h-full`}>
-                <div className="text-6xl mb-4">{travelType.icon}</div>
-                <h2 className="text-2xl font-bold mb-2">{travelType.title}</h2>
-                <p className="text-sm opacity-90 mb-3">{travelType.subtitle}</p>
-                <p className="text-sm opacity-80">{travelType.description}</p>
-                <div className="mt-6 flex items-center text-sm font-semibold">
+              <div className={`${travelType.color} p-5 sm:p-6 lg:p-8 text-white h-full min-h-[180px] sm:min-h-[200px]`}>
+                <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4">{travelType.icon}</div>
+                <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">{travelType.title}</h2>
+                <p className="text-xs sm:text-sm opacity-90 mb-2 sm:mb-3">{travelType.subtitle}</p>
+                <p className="text-xs sm:text-sm opacity-80 line-clamp-2">{travelType.description}</p>
+                <div className="mt-4 sm:mt-6 flex items-center text-xs sm:text-sm font-semibold">
                   코스 보기
                   <svg
-                    className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"
+                    className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -91,22 +91,22 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
         </div>
 
         {/* Info Section */}
-        <div className="mt-16 bg-white rounded-2xl shadow-md p-8">
-          <h3 className="text-2xl font-bold text-textDark mb-4">
+        <div className="mt-8 sm:mt-12 lg:mt-16 bg-white rounded-xl sm:rounded-2xl shadow-md p-5 sm:p-6 lg:p-8">
+          <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-textDark mb-4 sm:mb-6">
             이 가이드의 특징
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
             <div className="flex items-start">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white text-2xl">
+                <div className="flex items-center justify-center h-10 w-10 sm:h-12 sm:w-12 rounded-md bg-primary text-white text-xl sm:text-2xl">
                   🌤️
                 </div>
               </div>
-              <div className="ml-4">
-                <h4 className="text-lg font-semibold text-textDark">
+              <div className="ml-3 sm:ml-4">
+                <h4 className="text-base sm:text-lg font-semibold text-textDark">
                   날씨 기반 추천
                 </h4>
-                <p className="mt-2 text-gray-600">
+                <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600">
                   실시간 날씨를 반영하여 최적의 코스를 추천합니다
                 </p>
               </div>
@@ -114,15 +114,15 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
 
             <div className="flex items-start">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-secondary text-white text-2xl">
+                <div className="flex items-center justify-center h-10 w-10 sm:h-12 sm:w-12 rounded-md bg-secondary text-white text-xl sm:text-2xl">
                   💰
                 </div>
               </div>
-              <div className="ml-4">
-                <h4 className="text-lg font-semibold text-textDark">
+              <div className="ml-3 sm:ml-4">
+                <h4 className="text-base sm:text-lg font-semibold text-textDark">
                   예산 계산
                 </h4>
-                <p className="mt-2 text-gray-600">
+                <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600">
                   교통비, 입장료, 식비 등 상세한 비용 정보를 제공합니다
                 </p>
               </div>
@@ -130,15 +130,15 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
 
             <div className="flex items-start">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-accent text-white text-2xl">
+                <div className="flex items-center justify-center h-10 w-10 sm:h-12 sm:w-12 rounded-md bg-accent text-white text-xl sm:text-2xl">
                   🗺️
                 </div>
               </div>
-              <div className="ml-4">
-                <h4 className="text-lg font-semibold text-textDark">
+              <div className="ml-3 sm:ml-4">
+                <h4 className="text-base sm:text-lg font-semibold text-textDark">
                   지도 & 경로
                 </h4>
-                <p className="mt-2 text-gray-600">
+                <p className="mt-1 sm:mt-2 text-sm sm:text-base text-gray-600">
                   자차 기준 상세한 경로와 지도 정보를 확인하세요
                 </p>
               </div>
@@ -148,9 +148,9 @@ export default function HomePage({ onTypeSelect }: HomePageProps) {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white mt-16 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <p className="text-center text-gray-500 text-sm">
+      <footer className="bg-white mt-8 sm:mt-12 lg:mt-16 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-8">
+          <p className="text-center text-gray-500 text-xs sm:text-sm">
             © 2026 경기도 여행 가이드. Plan - Generator - Healer 방식으로 제작되었습니다.
           </p>
         </div>

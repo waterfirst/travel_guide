@@ -33,14 +33,14 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
     <div className="min-h-screen">
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-3 sm:py-4">
           <div className="flex items-center">
             <button
               onClick={onBack}
-              className="mr-4 p-2 rounded-lg hover:bg-gray-100 transition-colors"
+              className="mr-2 sm:mr-4 p-1.5 sm:p-2 rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors"
             >
               <svg
-                className="w-6 h-6 text-gray-600"
+                className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -53,12 +53,12 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
                 />
               </svg>
             </button>
-            <div>
-              <h1 className={`text-2xl font-bold ${info.color} flex items-center`}>
-                <span className="mr-2 text-3xl">{info.icon}</span>
-                {info.title}
+            <div className="flex-1 min-w-0">
+              <h1 className={`text-lg sm:text-xl lg:text-2xl font-bold ${info.color} flex items-center`}>
+                <span className="mr-1.5 sm:mr-2 text-2xl sm:text-3xl">{info.icon}</span>
+                <span className="truncate">{info.title}</span>
               </h1>
-              <p className="text-sm text-gray-600 mt-1">
+              <p className="text-xs sm:text-sm text-gray-600 mt-0.5 sm:mt-1">
                 총 {courses.length}개의 코스가 있습니다
               </p>
             </div>
@@ -67,39 +67,39 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
       </header>
 
       {/* Course List */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-4 sm:py-6 lg:py-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
           {courses.map((course) => (
             <button
               key={course.id}
               onClick={() => onCourseSelect(course.id)}
-              className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden text-left group"
+              className="bg-white rounded-lg sm:rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden text-left group active:scale-98"
             >
               {/* Thumbnail */}
-              <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-6xl">
+              <div className="h-36 sm:h-40 lg:h-48 bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center text-4xl sm:text-5xl lg:text-6xl">
                   {info.icon}
                 </div>
-                <div className="absolute top-3 right-3 bg-white px-3 py-1 rounded-full text-xs font-semibold text-gray-700">
+                <div className="absolute top-2 sm:top-3 right-2 sm:right-3 bg-white px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-semibold text-gray-700">
                   {course.duration}
                 </div>
               </div>
 
               {/* Content */}
-              <div className="p-5">
-                <h3 className="text-lg font-bold text-textDark mb-2 group-hover:text-primary transition-colors line-clamp-2">
+              <div className="p-3 sm:p-4 lg:p-5">
+                <h3 className="text-base sm:text-lg font-bold text-textDark mb-1.5 sm:mb-2 group-hover:text-primary transition-colors line-clamp-2">
                   {course.title}
                 </h3>
-                <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 line-clamp-2">
                   {course.description}
                 </p>
 
                 {/* Tags */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4">
                   {course.tags.slice(0, 3).map((tag) => (
                     <span
                       key={tag}
-                      className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
+                      className="px-2 py-0.5 sm:py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
                     >
                       #{tag}
                     </span>
@@ -107,10 +107,10 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
                 </div>
 
                 {/* Info Row */}
-                <div className="flex items-center justify-between text-sm">
+                <div className="flex items-center justify-between text-xs sm:text-sm">
                   <div className="flex items-center text-gray-600">
                     <svg
-                      className="w-4 h-4 mr-1"
+                      className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -130,16 +130,16 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
                     </svg>
                     {course.distance}km
                   </div>
-                  <div className="font-semibold text-primary">
+                  <div className="font-semibold text-primary text-xs sm:text-sm">
                     {formatPrice(course.estimatedCost.min)}~{formatPrice(course.estimatedCost.max)}원
                   </div>
                 </div>
 
                 {/* View Detail Arrow */}
-                <div className="mt-4 flex items-center text-sm font-semibold text-primary">
+                <div className="mt-3 sm:mt-4 flex items-center text-xs sm:text-sm font-semibold text-primary">
                   상세보기
                   <svg
-                    className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform"
+                    className="ml-1 w-3.5 h-3.5 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

@@ -8,7 +8,15 @@
       "Bash(npx playwright install)",
       "Bash(npm run build:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: 경기도 1월 여행 가이드 웹앱\n\n- Plan - Generator - Healer 방식으로 개발\n- 4가지 여행 타입별 총 20개 코스 제공\n- React + TypeScript + Vite + Tailwind CSS\n- 맛집 27개, 숙박 5개 데이터 포함\n- GitHub Pages 자동 배포 설정\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run dev:*)"
     ]
   }
 }
