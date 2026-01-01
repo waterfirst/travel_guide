@@ -77,7 +77,7 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
             >
               {/* Thumbnail */}
               <div className="h-36 sm:h-40 lg:h-48 bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-4xl sm:text-5xl lg:text-6xl">
+                <div className="absolute inset-0 flex items-center justify-center text-3xl sm:text-4xl lg:text-5xl">
                   {info.icon}
                 </div>
                 <div className="absolute top-2 sm:top-3 right-2 sm:right-3 bg-white px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-semibold text-gray-700">

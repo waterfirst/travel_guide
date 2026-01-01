@@ -78,13 +78,13 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
         <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg overflow-hidden mb-4 sm:mb-6">
           <div className="h-48 sm:h-56 lg:h-64 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white px-4">
             <div className="text-center">
-              <div className="text-5xl sm:text-6xl lg:text-8xl mb-3 sm:mb-4">
+              <div className="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4">
                 {course.type === 'bonfire' && '🔥'}
                 {course.type === 'spa-day' && '♨️'}
                 {course.type === 'spa-overnight' && '🏨'}
                 {course.type === 'solo-drive' && '🚗'}
               </div>
-              <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold px-4 sm:px-6">{course.title}</h1>
+              <h1 className="text-lg sm:text-xl lg:text-2xl font-bold px-4 sm:px-6 leading-tight">{course.title}</h1>
             </div>
           </div>
           <div className="p-4 sm:p-5 lg:p-6">
