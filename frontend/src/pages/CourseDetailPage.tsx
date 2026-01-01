@@ -152,9 +152,23 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
                     <h3 className="font-bold text-base sm:text-lg text-textDark mb-1.5 sm:mb-2">
                       {item.location.name}
                     </h3>
-                    <p className="text-xs sm:text-sm text-gray-600 mb-2">
-                      📍 {item.location.address}
-                    </p>
+                    <div className="flex items-start justify-between mb-2">
+                      <p className="text-xs sm:text-sm text-gray-600 flex-1">
+                        📍 {item.location.address}
+                      </p>
+                      <a
+                        href={`https://www.google.com/maps/search/?api=1&query=${item.location.lat},${item.location.lng}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-2 px-2 sm:px-3 py-1 bg-primary text-white text-xs rounded-full hover:bg-primary/90 transition-colors flex items-center whitespace-nowrap"
+                      >
+                        <svg className="w-3 h-3 sm:w-3.5 sm:h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        지도
+                      </a>
+                    </div>
                     <p className="text-primary font-semibold mb-2 sm:mb-3 text-sm sm:text-base">
                       {item.activity}
                     </p>
@@ -291,9 +305,35 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
                     </div>
                   </div>
 
-                  <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                    📍 {accommodation.location.address}
-                  </p>
+                  {/* Address with Map Link */}
+                  <div className="flex items-start justify-between mb-2 sm:mb-3">
+                    <p className="text-xs sm:text-sm text-gray-600 flex-1">
+                      📍 {accommodation.location.address}
+                    </p>
+                    <a
+                      href={`https://www.google.com/maps/search/?api=1&query=${accommodation.location.lat},${accommodation.location.lng}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2 px-2 sm:px-3 py-1 bg-accent text-white text-xs rounded-full hover:bg-accent/90 transition-colors flex items-center whitespace-nowrap"
+                    >
+                      <svg className="w-3 h-3 sm:w-3.5 sm:h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      지도
+                    </a>
+                  </div>
+
+                  {/* Phone Number */}
+                  <a
+                    href={`tel:${accommodation.phone}`}
+                    className="text-xs sm:text-sm text-primary font-semibold hover:underline flex items-center mb-2 sm:mb-3"
+                  >
+                    <svg className="w-4 h-4 sm:w-4.5 sm:h-4.5 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    {accommodation.phone}
+                  </a>
 
                   {/* Price */}
                   <div className="mb-2 sm:mb-3">
@@ -315,27 +355,37 @@ export default function CourseDetailPage({ courseId, onBack }: CourseDetailPageP
                     ))}
                   </div>
 
-                  {/* Contact & Booking */}
-                  <div className="flex flex-wrap gap-2 sm:gap-3 pt-2 sm:pt-3 border-t border-gray-100">
-                    <a
-                      href={`tel:${accommodation.phone}`}
-                      className="text-xs sm:text-sm text-primary hover:underline flex items-center"
-                    >
-                      <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
-                      {accommodation.phone}
-                    </a>
-                    {accommodation.bookingUrl && (
+                  {/* Booking Links */}
+                  <div className="pt-2 sm:pt-3 border-t border-gray-100">
+                    <p className="text-xs font-semibold text-gray-700 mb-2">최저가 예약:</p>
+                    <div className="flex flex-wrap gap-2">
+                      {accommodation.bookingUrl && (
+                        <a
+                          href={accommodation.bookingUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3 py-1.5 bg-primary text-white text-xs sm:text-sm rounded-lg hover:bg-primary/90 transition-colors flex items-center"
+                        >
+                          직접 예약
+                        </a>
+                      )}
                       <a
-                        href={accommodation.bookingUrl}
+                        href={`https://search.naver.com/search.naver?query=${encodeURIComponent(accommodation.name + ' 예약')}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-3 py-1 sm:py-1.5 bg-primary text-white text-xs sm:text-sm rounded-lg hover:bg-primary/90 transition-colors"
+                        className="px-3 py-1.5 bg-green-600 text-white text-xs sm:text-sm rounded-lg hover:bg-green-700 transition-colors flex items-center"
                       >
-                        예약하기
+                        네이버
                       </a>
-                    )}
+                      <a
+                        href={`https://www.google.com/search?q=${encodeURIComponent(accommodation.name + ' 숙박 예약 최저가')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3 py-1.5 bg-blue-600 text-white text-xs sm:text-sm rounded-lg hover:bg-blue-700 transition-colors flex items-center"
+                      >
+                        가격비교
+                      </a>
+                    </div>
                   </div>
                 </div>
               ))}

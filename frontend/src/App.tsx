@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20">
       {currentPage === 'home' && (
         <HomePage onTypeSelect={handleTypeSelect} />
       )}

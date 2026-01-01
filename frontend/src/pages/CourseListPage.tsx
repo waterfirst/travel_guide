@@ -32,15 +32,15 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
   return (
     <div className="min-h-screen">
       {/* Header */}
-      <header className="bg-white shadow-sm sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-3 sm:py-4">
+      <header className="bg-gradient-to-r from-white via-gray-50 to-white shadow-md sticky top-0 z-10 border-b-2 border-primary/20">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-4 sm:py-5">
           <div className="flex items-center">
             <button
               onClick={onBack}
-              className="mr-2 sm:mr-4 p-1.5 sm:p-2 rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors"
+              className="mr-3 sm:mr-4 p-2 sm:p-2.5 rounded-xl hover:bg-primary/10 active:bg-primary/20 transition-all duration-300 hover:scale-110 border border-gray-200"
             >
               <svg
-                className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600"
+                className="w-5 h-5 sm:w-6 sm:h-6 text-primary"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -48,17 +48,18 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={2}
+                  strokeWidth={2.5}
                   d="M15 19l-7-7 7-7"
                 />
               </svg>
             </button>
             <div className="flex-1 min-w-0">
-              <h1 className={`text-xl sm:text-2xl lg:text-3xl font-bold ${info.color}`}>
+              <h1 className={`text-xl sm:text-2xl lg:text-3xl font-bold ${info.color} flex items-center`}>
+                <span className="text-2xl sm:text-3xl lg:text-4xl mr-2">{info.icon}</span>
                 {info.title}
               </h1>
-              <p className="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2">
-                총 {courses.length}개의 코스가 있습니다
+              <p className="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 font-medium">
+                📍 총 {courses.length}개의 특별한 코스
               </p>
             </div>
           </div>
@@ -72,7 +73,7 @@ export default function CourseListPage({ type, onCourseSelect, onBack }: CourseL
             <button
               key={course.id}
               onClick={() => onCourseSelect(course.id)}
-              className="bg-white rounded-lg sm:rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden text-left group active:scale-98"
+              className="bg-white rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden text-left group active:scale-95 hover:scale-105 border border-gray-100 hover:border-primary/30"
             >
               {/* Thumbnail */}
               <div className="h-48 sm:h-52 lg:h-56 relative overflow-hidden">
