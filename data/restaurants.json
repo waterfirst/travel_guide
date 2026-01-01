@@ -1,0 +1,596 @@
+[
+  {
+    "id": "restaurant-1",
+    "name": "가평 막국수 본가",
+    "category": "한식",
+    "location": {
+      "name": "가평 막국수 본가",
+      "address": "경기도 가평군 가평읍 가평대로 123",
+      "lat": 37.8312,
+      "lng": 127.5089
+    },
+    "phone": "031-582-1234",
+    "menu": [
+      {"name": "막국수", "price": 9000},
+      {"name": "비빔국수", "price": 9000},
+      {"name": "수육", "price": 25000}
+    ],
+    "rating": 4.5,
+    "reviewCount": 823,
+    "priceRange": "1만원 이하",
+    "images": ["/images/restaurant-1.jpg"],
+    "openingHours": "10:00-20:00"
+  },
+  {
+    "id": "restaurant-2",
+    "name": "가평 닭갈비 명가",
+    "category": "한식",
+    "location": {
+      "name": "가평 닭갈비 명가",
+      "address": "경기도 가평군 가평읍 가평대로 234",
+      "lat": 37.8323,
+      "lng": 127.5098
+    },
+    "phone": "031-582-2345",
+    "menu": [
+      {"name": "닭갈비", "price": 12000},
+      {"name": "닭볶음밥", "price": 3000},
+      {"name": "막국수", "price": 7000}
+    ],
+    "rating": 4.6,
+    "reviewCount": 1245,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-2.jpg"],
+    "openingHours": "11:00-21:00"
+  },
+  {
+    "id": "restaurant-3",
+    "name": "가평 송어회 맛집",
+    "category": "회/해산물",
+    "location": {
+      "name": "가평 송어회 맛집",
+      "address": "경기도 가평군 청평면 청평로 345",
+      "lat": 37.7456,
+      "lng": 127.4123
+    },
+    "phone": "031-584-3456",
+    "menu": [
+      {"name": "송어회", "price": 35000},
+      {"name": "매운탕", "price": 10000},
+      {"name": "송어구이", "price": 30000}
+    ],
+    "rating": 4.4,
+    "reviewCount": 567,
+    "priceRange": "2-3만원",
+    "images": ["/images/restaurant-3.jpg"],
+    "openingHours": "10:00-21:00"
+  },
+  {
+    "id": "restaurant-4",
+    "name": "포천 이동갈비 1번지",
+    "category": "한식",
+    "location": {
+      "name": "포천 이동갈비 1번지",
+      "address": "경기도 포천시 이동면 이동로 234",
+      "lat": 37.9345,
+      "lng": 127.1989
+    },
+    "phone": "031-534-4567",
+    "menu": [
+      {"name": "이동갈비", "price": 28000},
+      {"name": "갈비탕", "price": 12000},
+      {"name": "된장찌개", "price": 8000}
+    ],
+    "rating": 4.7,
+    "reviewCount": 2134,
+    "priceRange": "2-3만원",
+    "images": ["/images/restaurant-4.jpg"],
+    "openingHours": "11:00-22:00"
+  },
+  {
+    "id": "restaurant-5",
+    "name": "포천 막국수집",
+    "category": "한식",
+    "location": {
+      "name": "포천 막국수집",
+      "address": "경기도 포천시 신북면 포천로 456",
+      "lat": 38.0156,
+      "lng": 127.2378
+    },
+    "phone": "031-533-5678",
+    "menu": [
+      {"name": "막국수", "price": 8000},
+      {"name": "편육", "price": 22000},
+      {"name": "수육", "price": 25000}
+    ],
+    "rating": 4.3,
+    "reviewCount": 456,
+    "priceRange": "1만원 이하",
+    "images": ["/images/restaurant-5.jpg"],
+    "openingHours": "10:30-20:00"
+  },
+  {
+    "id": "restaurant-6",
+    "name": "화성 한우마을",
+    "category": "한식",
+    "location": {
+      "name": "화성 한우마을",
+      "address": "경기도 화성시 우정읍 화성로 345",
+      "lat": 37.1245,
+      "lng": 126.9889
+    },
+    "phone": "031-356-6789",
+    "menu": [
+      {"name": "한우등심", "price": 45000},
+      {"name": "한우갈비", "price": 50000},
+      {"name": "육회", "price": 25000}
+    ],
+    "rating": 4.5,
+    "reviewCount": 892,
+    "priceRange": "4-5만원",
+    "images": ["/images/restaurant-6.jpg"],
+    "openingHours": "11:30-22:00"
+  },
+  {
+    "id": "restaurant-7",
+    "name": "화성 해물탕 전문점",
+    "category": "회/해산물",
+    "location": {
+      "name": "화성 해물탕 전문점",
+      "address": "경기도 화성시 우정읍 화성로 456",
+      "lat": 37.1256,
+      "lng": 126.9901
+    },
+    "phone": "031-356-7890",
+    "menu": [
+      {"name": "해물탕", "price": 40000},
+      {"name": "물회", "price": 12000},
+      {"name": "회덮밥", "price": 10000}
+    ],
+    "rating": 4.4,
+    "reviewCount": 634,
+    "priceRange": "3-4만원",
+    "images": ["/images/restaurant-7.jpg"],
+    "openingHours": "11:00-21:30"
+  },
+  {
+    "id": "restaurant-8",
+    "name": "평택 순대국밥",
+    "category": "한식",
+    "location": {
+      "name": "평택 순대국밥",
+      "address": "경기도 평택시 진위면 평택로 567",
+      "lat": 37.0234,
+      "lng": 127.0567
+    },
+    "phone": "031-667-8901",
+    "menu": [
+      {"name": "순대국밥", "price": 8000},
+      {"name": "내장국밥", "price": 8000},
+      {"name": "순대", "price": 15000}
+    ],
+    "rating": 4.2,
+    "reviewCount": 234,
+    "priceRange": "1만원 이하",
+    "images": ["/images/restaurant-8.jpg"],
+    "openingHours": "06:00-21:00"
+  },
+  {
+    "id": "restaurant-9",
+    "name": "평택 칼국수",
+    "category": "한식",
+    "location": {
+      "name": "평택 칼국수",
+      "address": "경기도 평택시 진위면 평택로 678",
+      "lat": 37.0245,
+      "lng": 127.0578
+    },
+    "phone": "031-667-9012",
+    "menu": [
+      {"name": "바지락칼국수", "price": 7000},
+      {"name": "수제비", "price": 7000},
+      {"name": "해물칼국수", "price": 9000}
+    ],
+    "rating": 4.3,
+    "reviewCount": 345,
+    "priceRange": "1만원 이하",
+    "images": ["/images/restaurant-9.jpg"],
+    "openingHours": "09:00-20:00"
+  },
+  {
+    "id": "restaurant-10",
+    "name": "이천 쌀밥정식",
+    "category": "한식",
+    "location": {
+      "name": "이천 쌀밥정식",
+      "address": "경기도 이천시 부발읍 이천대로 123",
+      "lat": 37.1678,
+      "lng": 127.4456
+    },
+    "phone": "031-632-1234",
+    "menu": [
+      {"name": "이천쌀밥정식", "price": 15000},
+      {"name": "돌솥비빔밥", "price": 12000},
+      {"name": "제육정식", "price": 13000}
+    ],
+    "rating": 4.6,
+    "reviewCount": 1567,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-10.jpg"],
+    "openingHours": "11:00-21:00"
+  },
+  {
+    "id": "restaurant-11",
+    "name": "이천 한정식",
+    "category": "한식",
+    "location": {
+      "name": "이천 한정식",
+      "address": "경기도 이천시 부발읍 이천대로 234",
+      "lat": 37.1689,
+      "lng": 127.4467
+    },
+    "phone": "031-632-2345",
+    "menu": [
+      {"name": "한정식 (특)", "price": 35000},
+      {"name": "한정식 (일반)", "price": 25000},
+      {"name": "갈비정식", "price": 30000}
+    ],
+    "rating": 4.7,
+    "reviewCount": 2234,
+    "priceRange": "2-3만원",
+    "images": ["/images/restaurant-11.jpg"],
+    "openingHours": "11:30-21:00"
+  },
+  {
+    "id": "restaurant-12",
+    "name": "화성 전통 한정식",
+    "category": "한식",
+    "location": {
+      "name": "화성 전통 한정식",
+      "address": "경기도 화성시 팔탄면 화성로 567",
+      "lat": 37.0589,
+      "lng": 127.0267
+    },
+    "phone": "031-354-3456",
+    "menu": [
+      {"name": "한정식", "price": 20000},
+      {"name": "갈비탕", "price": 12000},
+      {"name": "불고기정식", "price": 15000}
+    ],
+    "rating": 4.5,
+    "reviewCount": 678,
+    "priceRange": "2-3만원",
+    "images": ["/images/restaurant-12.jpg"],
+    "openingHours": "11:00-21:00"
+  },
+  {
+    "id": "restaurant-13",
+    "name": "화성 설렁탕",
+    "category": "한식",
+    "location": {
+      "name": "화성 설렁탕",
+      "address": "경기도 화성시 팔탄면 화성로 678",
+      "lat": 37.0601,
+      "lng": 127.0278
+    },
+    "phone": "031-354-4567",
+    "menu": [
+      {"name": "설렁탕", "price": 10000},
+      {"name": "도가니탕", "price": 12000},
+      {"name": "갈비탕", "price": 13000}
+    ],
+    "rating": 4.4,
+    "reviewCount": 456,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-13.jpg"],
+    "openingHours": "07:00-21:00"
+  },
+  {
+    "id": "restaurant-14",
+    "name": "포천 이동갈비 본점",
+    "category": "한식",
+    "location": {
+      "name": "포천 이동갈비 본점",
+      "address": "경기도 포천시 이동면 이동로 234",
+      "lat": 37.9345,
+      "lng": 127.1989
+    },
+    "phone": "031-534-5678",
+    "menu": [
+      {"name": "이동갈비", "price": 30000},
+      {"name": "양념갈비", "price": 28000},
+      {"name": "냉면", "price": 8000}
+    ],
+    "rating": 4.8,
+    "reviewCount": 3456,
+    "priceRange": "2-3만원",
+    "images": ["/images/restaurant-14.jpg"],
+    "openingHours": "11:00-22:00"
+  },
+  {
+    "id": "restaurant-15",
+    "name": "포천 한우촌",
+    "category": "한식",
+    "location": {
+      "name": "포천 한우촌",
+      "address": "경기도 포천시 이동면 이동로 345",
+      "lat": 37.9356,
+      "lng": 127.2001
+    },
+    "phone": "031-534-6789",
+    "menu": [
+      {"name": "한우등심", "price": 50000},
+      {"name": "한우안심", "price": 55000},
+      {"name": "육회", "price": 28000}
+    ],
+    "rating": 4.6,
+    "reviewCount": 1234,
+    "priceRange": "4-5만원",
+    "images": ["/images/restaurant-15.jpg"],
+    "openingHours": "12:00-22:00"
+  },
+  {
+    "id": "restaurant-16",
+    "name": "강화도 새우젓정식",
+    "category": "한식",
+    "location": {
+      "name": "강화도 새우젓정식",
+      "address": "인천광역시 강화군 강화읍 대한로 234",
+      "lat": 37.7456,
+      "lng": 126.4889
+    },
+    "phone": "032-933-7890",
+    "menu": [
+      {"name": "새우젓정식", "price": 12000},
+      {"name": "순두부정식", "price": 10000},
+      {"name": "새우튀김", "price": 15000}
+    ],
+    "rating": 4.5,
+    "reviewCount": 892,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-16.jpg"],
+    "openingHours": "10:00-20:00"
+  },
+  {
+    "id": "restaurant-17",
+    "name": "강화도 순두부마을",
+    "category": "한식",
+    "location": {
+      "name": "강화도 순두부마을",
+      "address": "인천광역시 강화군 강화읍 대한로 345",
+      "lat": 37.7467,
+      "lng": 126.4901
+    },
+    "phone": "032-933-8901",
+    "menu": [
+      {"name": "순두부백반", "price": 9000},
+      {"name": "두부전골", "price": 25000},
+      {"name": "순두부찌개", "price": 8000}
+    ],
+    "rating": 4.4,
+    "reviewCount": 567,
+    "priceRange": "1만원 이하",
+    "images": ["/images/restaurant-17.jpg"],
+    "openingHours": "09:00-20:00"
+  },
+  {
+    "id": "restaurant-18",
+    "name": "양평 한우마을",
+    "category": "한식",
+    "location": {
+      "name": "양평 한우마을",
+      "address": "경기도 양평군 양평읍 양평로 567",
+      "lat": 37.4878,
+      "lng": 127.4912
+    },
+    "phone": "031-772-9012",
+    "menu": [
+      {"name": "한우등심", "price": 48000},
+      {"name": "한우갈비", "price": 52000},
+      {"name": "육회", "price": 30000}
+    ],
+    "rating": 4.7,
+    "reviewCount": 1789,
+    "priceRange": "4-5만원",
+    "images": ["/images/restaurant-18.jpg"],
+    "openingHours": "11:30-22:00"
+  },
+  {
+    "id": "restaurant-19",
+    "name": "양평 더덕정식",
+    "category": "한식",
+    "location": {
+      "name": "양평 더덕정식",
+      "address": "경기도 양평군 양평읍 양평로 456",
+      "lat": 37.4867,
+      "lng": 127.4901
+    },
+    "phone": "031-772-0123",
+    "menu": [
+      {"name": "더덕정식", "price": 13000},
+      {"name": "더덕구이", "price": 15000},
+      {"name": "메밀국수", "price": 9000}
+    ],
+    "rating": 4.5,
+    "reviewCount": 934,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-19.jpg"],
+    "openingHours": "10:30-20:30"
+  },
+  {
+    "id": "restaurant-20",
+    "name": "대부도 바지락칼국수",
+    "category": "한식",
+    "location": {
+      "name": "대부도 바지락칼국수",
+      "address": "경기도 안산시 단원구 대부북동 567",
+      "lat": 37.2234,
+      "lng": 126.5456
+    },
+    "phone": "032-886-1234",
+    "menu": [
+      {"name": "바지락칼국수", "price": 8000},
+      {"name": "해물칼국수", "price": 10000},
+      {"name": "바지락죽", "price": 9000}
+    ],
+    "rating": 4.6,
+    "reviewCount": 2345,
+    "priceRange": "1만원 이하",
+    "images": ["/images/restaurant-20.jpg"],
+    "openingHours": "09:00-21:00"
+  },
+  {
+    "id": "restaurant-21",
+    "name": "대부도 해산물센터",
+    "category": "회/해산물",
+    "location": {
+      "name": "대부도 해산물센터",
+      "address": "경기도 안산시 단원구 대부북동 678",
+      "lat": 37.2245,
+      "lng": 126.5467
+    },
+    "phone": "032-886-2345",
+    "menu": [
+      {"name": "모둠회 (대)", "price": 50000},
+      {"name": "대하구이", "price": 40000},
+      {"name": "매운탕", "price": 15000}
+    ],
+    "rating": 4.5,
+    "reviewCount": 1678,
+    "priceRange": "3-5만원",
+    "images": ["/images/restaurant-21.jpg"],
+    "openingHours": "10:00-22:00"
+  },
+  {
+    "id": "restaurant-22",
+    "name": "파주 장단콩마을",
+    "category": "한식",
+    "location": {
+      "name": "파주 장단콩마을",
+      "address": "경기도 파주시 탄현면 헤이리마을길 234",
+      "lat": 37.7756,
+      "lng": 126.6845
+    },
+    "phone": "031-948-3456",
+    "menu": [
+      {"name": "두부전골", "price": 30000},
+      {"name": "순두부정식", "price": 12000},
+      {"name": "콩국수", "price": 9000}
+    ],
+    "rating": 4.6,
+    "reviewCount": 1456,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-22.jpg"],
+    "openingHours": "10:30-20:30"
+  },
+  {
+    "id": "restaurant-23",
+    "name": "임진각 막국수",
+    "category": "한식",
+    "location": {
+      "name": "임진각 막국수",
+      "address": "경기도 파주시 문산읍 임진각로 345",
+      "lat": 37.8912,
+      "lng": 126.7456
+    },
+    "phone": "031-953-4567",
+    "menu": [
+      {"name": "막국수", "price": 8000},
+      {"name": "비빔국수", "price": 8000},
+      {"name": "편육", "price": 25000}
+    ],
+    "rating": 4.4,
+    "reviewCount": 789,
+    "priceRange": "1만원 이하",
+    "images": ["/images/restaurant-23.jpg"],
+    "openingHours": "10:00-20:00"
+  },
+  {
+    "id": "restaurant-24",
+    "name": "궁평항 대하구이",
+    "category": "회/해산물",
+    "location": {
+      "name": "궁평항 대하구이",
+      "address": "경기도 화성시 서신면 궁평리 567",
+      "lat": 37.1467,
+      "lng": 126.6801
+    },
+    "phone": "031-357-5678",
+    "menu": [
+      {"name": "대하구이 (1kg)", "price": 50000},
+      {"name": "대하탕", "price": 40000},
+      {"name": "대하튀김", "price": 35000}
+    ],
+    "rating": 4.7,
+    "reviewCount": 2567,
+    "priceRange": "3-5만원",
+    "images": ["/images/restaurant-24.jpg"],
+    "openingHours": "10:00-22:00"
+  },
+  {
+    "id": "restaurant-25",
+    "name": "전곡항 횟집",
+    "category": "회/해산물",
+    "location": {
+      "name": "전곡항 횟집",
+      "address": "경기도 화성시 서신면 전곡항로 456",
+      "lat": 37.1389,
+      "lng": 126.6678
+    },
+    "phone": "031-357-6789",
+    "menu": [
+      {"name": "모둠회 (대)", "price": 60000},
+      {"name": "광어회", "price": 40000},
+      {"name": "매운탕", "price": 12000}
+    ],
+    "rating": 4.6,
+    "reviewCount": 1890,
+    "priceRange": "4-6만원",
+    "images": ["/images/restaurant-25.jpg"],
+    "openingHours": "09:00-21:00"
+  },
+  {
+    "id": "restaurant-26",
+    "name": "남양주 닭갈비",
+    "category": "한식",
+    "location": {
+      "name": "남양주 닭갈비",
+      "address": "경기도 남양주시 진접읍 남양주로 234",
+      "lat": 37.7123,
+      "lng": 127.1234
+    },
+    "phone": "031-573-7890",
+    "menu": [
+      {"name": "닭갈비", "price": 11000},
+      {"name": "닭볶음밥", "price": 3000},
+      {"name": "막국수", "price": 7000}
+    ],
+    "rating": 4.5,
+    "reviewCount": 1234,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-26.jpg"],
+    "openingHours": "11:00-21:30"
+  },
+  {
+    "id": "restaurant-27",
+    "name": "다산 유기농 정식",
+    "category": "한식",
+    "location": {
+      "name": "다산 유기농 정식",
+      "address": "경기도 남양주시 조안면 다산로 345",
+      "lat": 37.6345,
+      "lng": 127.2456
+    },
+    "phone": "031-576-8901",
+    "menu": [
+      {"name": "유기농정식", "price": 15000},
+      {"name": "된장찌개정식", "price": 12000},
+      {"name": "청국장", "price": 10000}
+    ],
+    "rating": 4.6,
+    "reviewCount": 892,
+    "priceRange": "1-2만원",
+    "images": ["/images/restaurant-27.jpg"],
+    "openingHours": "11:00-20:00"
+  }
+]

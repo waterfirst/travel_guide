@@ -1,0 +1,1247 @@
+[
+  {
+    "id": "bonfire-1",
+    "type": "bonfire",
+    "title": "가평 무지개 독채펜션&글램핑 - 퇴근 후 불멍 코스",
+    "description": "평일 교통이 원활하여 퇴근 후에도 부담 없이 방문할 수 있는 불멍 명소. 계곡 근처에서 친구들과 담소를 나누기 좋은 곳입니다.",
+    "thumbnail": "/images/bonfire-1.jpg",
+    "duration": "3-4시간",
+    "distance": 65,
+    "estimatedCost": {
+      "min": 30000,
+      "max": 50000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "가평 무지개 독채펜션&글램핑",
+          "address": "경기도 가평군 북면 백둔로 123",
+          "lat": 37.8331,
+          "lng": 127.5089,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 0
+        },
+        "activity": "불멍 및 바베큐",
+        "duration": "2-3시간",
+        "cost": 30000,
+        "description": "계곡 근처에서 모닥불을 피우며 친구들과 여유로운 시간을 보냅니다."
+      }
+    ],
+    "restaurants": ["restaurant-1", "restaurant-2"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["불멍", "캠핑", "친구", "당일치기", "바베큐"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "bonfire-2",
+    "type": "bonfire",
+    "title": "가평 글램탐다오 - 이국적 분위기 불멍",
+    "description": "야자수와 풀장이 어우러진 이국적인 분위기에서 독립 BBQ 시설과 불멍 화로를 즐길 수 있는 프리미엄 글램핑장.",
+    "thumbnail": "/images/bonfire-2.jpg",
+    "duration": "3-4시간",
+    "distance": 70,
+    "estimatedCost": {
+      "min": 70000,
+      "max": 120000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "가평 글램탐다오",
+          "address": "경기도 가평군 설악면 가일리 456",
+          "lat": 37.8745,
+          "lng": 127.5234,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 0
+        },
+        "activity": "프리미엄 글램핑 & 불멍",
+        "duration": "3시간",
+        "cost": 90000,
+        "description": "이국적인 분위기의 글램핑장에서 독립 BBQ와 불멍을 즐깁니다."
+      }
+    ],
+    "restaurants": ["restaurant-1", "restaurant-3"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["불멍", "글램핑", "프리미엄", "친구", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "bonfire-3",
+    "type": "bonfire",
+    "title": "포천 마루 글램핑 카라반 - 초보자 친화",
+    "description": "숯불, 장작, 불멍 도구가 모두 준비되어 있어 초보자도 편하게 불멍을 즐길 수 있는 곳. 친절한 직원 응대가 장점입니다.",
+    "thumbnail": "/images/bonfire-3.jpg",
+    "duration": "3-4시간",
+    "distance": 55,
+    "estimatedCost": {
+      "min": 35000,
+      "max": 50000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "포천 마루 글램핑 카라반",
+          "address": "경기도 포천시 영북면 포천로 789",
+          "lat": 38.0234,
+          "lng": 127.2456,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 0
+        },
+        "activity": "글램핑 & 불멍",
+        "duration": "3시간",
+        "cost": 40000,
+        "description": "모든 장비가 준비되어 있어 편하게 불멍을 즐길 수 있습니다."
+      }
+    ],
+    "restaurants": ["restaurant-4", "restaurant-5"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["불멍", "글램핑", "초보자", "친구", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "bonfire-4",
+    "type": "bonfire",
+    "title": "화성 글램비 글램핑 - 수영장이 있는 고급 글램핑",
+    "description": "고급형 텐트와 불멍, 바비큐, 미온수 수영장까지 갖춘 프리미엄 글램핑장. 다채로운 경험을 원하는 분들께 추천합니다.",
+    "thumbnail": "/images/bonfire-4.jpg",
+    "duration": "4-5시간",
+    "distance": 60,
+    "estimatedCost": {
+      "min": 80000,
+      "max": 100000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "화성 글램비 글램핑",
+          "address": "경기도 화성시 우정읍 화성로 234",
+          "lat": 37.1234,
+          "lng": 126.9876,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 0
+        },
+        "activity": "프리미엄 글램핑, 불멍, 수영",
+        "duration": "4시간",
+        "cost": 90000,
+        "description": "미온수 수영장과 불멍을 함께 즐길 수 있는 프리미엄 공간입니다."
+      }
+    ],
+    "restaurants": ["restaurant-6", "restaurant-7"],
+    "bestWeather": ["clear"],
+    "tags": ["불멍", "글램핑", "수영장", "프리미엄", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "bonfire-5",
+    "type": "bonfire",
+    "title": "평택 진위천 유원지 쉼터 - 무료 캠프닉",
+    "description": "주차비 3,000원만으로 무료로 불멍을 즐길 수 있는 가성비 최고의 장소. 캠핑 장비를 모두 사용할 수 있습니다.",
+    "thumbnail": "/images/bonfire-5.jpg",
+    "duration": "2-3시간",
+    "distance": 75,
+    "estimatedCost": {
+      "min": 10000,
+      "max": 20000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "평택 진위천 유원지 쉼터",
+          "address": "경기도 평택시 진위면 진위천로 567",
+          "lat": 37.0123,
+          "lng": 127.0456,
+          "parkingInfo": "주차비 3,000원",
+          "entryFee": 0
+        },
+        "activity": "무료 캠프닉 & 불멍",
+        "duration": "2-3시간",
+        "cost": 3000,
+        "description": "가성비 좋은 무료 캠프닉 장소에서 불멍을 즐깁니다."
+      }
+    ],
+    "restaurants": ["restaurant-8", "restaurant-9"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["불멍", "캠프닉", "무료", "가성비", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-day-1",
+    "type": "spa-day",
+    "title": "이천 테르메덴 & 쌀밥정식 코스",
+    "description": "한국 최대 규모의 독일식 온천 리조트. 이천 쌀밥정식과 함께 부모님과 편안한 하루를 보낼 수 있는 완벽한 코스입니다.",
+    "thumbnail": "/images/spa-day-1.jpg",
+    "duration": "5-6시간",
+    "distance": 58,
+    "estimatedCost": {
+      "min": 50000,
+      "max": 80000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "이천 테르메덴",
+          "address": "경기도 이천시 모가면 사실로 984",
+          "lat": 37.1889,
+          "lng": 127.4234,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 35000
+        },
+        "activity": "독일식 온천 & 스파",
+        "duration": "3-4시간",
+        "cost": 35000,
+        "description": "독일 바덴바덴 스타일의 다양한 온천탕을 즐깁니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "이천 쌀밥정식 맛집",
+          "address": "경기도 이천시 부발읍 이천대로 123",
+          "lat": 37.1678,
+          "lng": 127.4456,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "이천 쌀밥정식",
+        "duration": "1시간",
+        "cost": 15000,
+        "description": "이천 쌀로 만든 맛있는 정식을 즐깁니다."
+      }
+    ],
+    "restaurants": ["restaurant-10", "restaurant-11"],
+    "bestWeather": ["clear", "cloudy", "rainy", "snowy"],
+    "tags": ["온천", "당일치기", "부모님", "식사", "힐링"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-day-2",
+    "type": "spa-day",
+    "title": "화성 율암온천 & 한정식 코스",
+    "description": "100% 천연 게르마늄 온천수로 유명한 율암온천. 서울에서 40분 거리로 접근성이 좋고, 근처 한정식이 훌륭합니다.",
+    "thumbnail": "/images/spa-day-2.jpg",
+    "duration": "4-5시간",
+    "distance": 45,
+    "estimatedCost": {
+      "min": 40000,
+      "max": 60000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "화성 율암온천",
+          "address": "경기도 화성시 팔탄면 율암리 345",
+          "lat": 37.0567,
+          "lng": 127.0234,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 25000
+        },
+        "activity": "게르마늄 온천욕",
+        "duration": "2-3시간",
+        "cost": 25000,
+        "description": "건강에 좋은 게르마늄 온천수를 즐깁니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "화성 전통 한정식",
+          "address": "경기도 화성시 팔탄면 화성로 567",
+          "lat": 37.0589,
+          "lng": 127.0267,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "한정식 식사",
+        "duration": "1-1.5시간",
+        "cost": 20000,
+        "description": "정성스럽게 차려진 한정식을 맛봅니다."
+      }
+    ],
+    "restaurants": ["restaurant-12", "restaurant-13"],
+    "bestWeather": ["clear", "cloudy", "rainy", "snowy"],
+    "tags": ["온천", "당일치기", "부모님", "게르마늄", "한정식"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-day-3",
+    "type": "spa-day",
+    "title": "포천 신북온천 & 이동갈비 코스",
+    "description": "100년 역사의 효능 좋은 온천수와 포천 명물 이동갈비를 즐길 수 있는 코스. 산정호수 구경도 덤으로 즐길 수 있습니다.",
+    "thumbnail": "/images/spa-day-3.jpg",
+    "duration": "5-6시간",
+    "distance": 62,
+    "estimatedCost": {
+      "min": 50000,
+      "max": 70000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "포천 신북온천 스프링폴",
+          "address": "경기도 포천시 신북면 온천로 789",
+          "lat": 38.0123,
+          "lng": 127.2234,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 28000
+        },
+        "activity": "전통 온천욕",
+        "duration": "2-3시간",
+        "cost": 28000,
+        "description": "100년 역사의 전통 온천수를 즐깁니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "산정호수",
+          "address": "경기도 포천시 영북면 산정호수로 411",
+          "lat": 38.0789,
+          "lng": 127.2678,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "산정호수 산책",
+        "duration": "30분",
+        "cost": 0,
+        "description": "아름다운 산정호수를 둘러봅니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "이동갈비 맛집",
+          "address": "경기도 포천시 이동면 이동로 234",
+          "lat": 37.9345,
+          "lng": 127.1989,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "이동갈비 식사",
+        "duration": "1시간",
+        "cost": 25000,
+        "description": "포천의 명물 이동갈비를 맛봅니다."
+      }
+    ],
+    "restaurants": ["restaurant-14", "restaurant-15"],
+    "bestWeather": ["clear", "cloudy", "rainy"],
+    "tags": ["온천", "당일치기", "부모님", "갈비", "호수"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-day-4",
+    "type": "spa-day",
+    "title": "석모도 미네랄온천 & 강화도 맛집 코스",
+    "description": "바다 앞 노천탕에서 일몰을 감상하며 온천욕을 즐기고, 강화도 새우젓정식을 맛보는 가성비 최고의 코스입니다.",
+    "thumbnail": "/images/spa-day-4.jpg",
+    "duration": "6-7시간",
+    "distance": 78,
+    "estimatedCost": {
+      "min": 30000,
+      "max": 50000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "석모도 미네랄온천",
+          "address": "인천광역시 강화군 삼산면 석모리 456",
+          "lat": 37.7234,
+          "lng": 126.4567,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 9000
+        },
+        "activity": "바다 전망 노천탕",
+        "duration": "2-3시간",
+        "cost": 9000,
+        "description": "바다를 바라보며 15개의 노천탕을 즐깁니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "강화도 새우젓정식",
+          "address": "인천광역시 강화군 강화읍 대한로 234",
+          "lat": 37.7456,
+          "lng": 126.4889,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "새우젓정식 또는 순두부",
+        "duration": "1시간",
+        "cost": 12000,
+        "description": "강화도 특산물로 만든 건강한 식사를 즐깁니다."
+      }
+    ],
+    "restaurants": ["restaurant-16", "restaurant-17"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["온천", "당일치기", "부모님", "바다", "가성비"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-day-5",
+    "type": "spa-day",
+    "title": "양평 블룸비스타 스파 & 두물머리 코스",
+    "description": "프라이빗 고급 스파를 즐기고, 두물머리 강변을 산책하며 양평 한우를 맛보는 여유로운 코스입니다.",
+    "thumbnail": "/images/spa-day-5.jpg",
+    "duration": "5-6시간",
+    "distance": 52,
+    "estimatedCost": {
+      "min": 60000,
+      "max": 90000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "양평 블룸비스타 스파",
+          "address": "경기도 양평군 옥천면 블룸로 123",
+          "lat": 37.4234,
+          "lng": 127.4567,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 45000
+        },
+        "activity": "프라이빗 고급 스파",
+        "duration": "2-3시간",
+        "cost": 45000,
+        "description": "프라이빗하고 고급스러운 스파를 즐깁니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "두물머리",
+          "address": "경기도 양평군 양서면 양수리 452",
+          "lat": 37.5234,
+          "lng": 127.3456,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "두물머리 강변 산책",
+        "duration": "30분-1시간",
+        "cost": 0,
+        "description": "아름다운 두물머리 강변을 산책합니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "양평 한우 맛집",
+          "address": "경기도 양평군 양평읍 양평로 567",
+          "lat": 37.4878,
+          "lng": 127.4912,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "양평 한우 식사",
+        "duration": "1-1.5시간",
+        "cost": 35000,
+        "description": "고급스러운 양평 한우를 맛봅니다."
+      }
+    ],
+    "restaurants": ["restaurant-18", "restaurant-19"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["온천", "당일치기", "부모님", "프리미엄", "한우"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-overnight-1",
+    "type": "spa-overnight",
+    "title": "이천 테르메덴 1박2일 힐링 코스",
+    "description": "독일식 스파와 워터파크를 무제한 즐기며 완벽한 힐링을 경험하는 1박2일 코스. 리조트 뷔페와 이천 한정식도 함께 즐길 수 있습니다.",
+    "thumbnail": "/images/spa-overnight-1.jpg",
+    "duration": "1박2일",
+    "distance": 58,
+    "estimatedCost": {
+      "min": 200000,
+      "max": 300000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "이천 테르메덴",
+          "address": "경기도 이천시 모가면 사실로 984",
+          "lat": 37.1889,
+          "lng": 127.4234,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 0
+        },
+        "activity": "체크인 & 온천 (1일차)",
+        "duration": "오후-저녁",
+        "cost": 150000,
+        "description": "리조트 체크인 후 다양한 온천탕을 즐깁니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "테르메덴 리조트 레스토랑",
+          "address": "경기도 이천시 모가면 사실로 984",
+          "lat": 37.1889,
+          "lng": 127.4234,
+          "parkingInfo": "숙박객 무료",
+          "entryFee": 0
+        },
+        "activity": "리조트 뷔페 저녁",
+        "duration": "1시간",
+        "cost": 40000,
+        "description": "리조트 내 뷔페 레스토랑에서 저녁식사를 합니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "이천 테르메덴",
+          "address": "경기도 이천시 모가면 사실로 984",
+          "lat": 37.1889,
+          "lng": 127.4234,
+          "parkingInfo": "무료 주차 가능",
+          "entryFee": 0
+        },
+        "activity": "아침 온천 & 체크아웃 (2일차)",
+        "duration": "오전",
+        "cost": 0,
+        "description": "여유롭게 아침 온천을 즐기고 체크아웃합니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "이천 한정식",
+          "address": "경기도 이천시 부발읍 이천대로 234",
+          "lat": 37.1678,
+          "lng": 127.4456,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "이천 한정식 점심",
+        "duration": "1시간",
+        "cost": 25000,
+        "description": "이천 쌀로 만든 한정식으로 점심을 먹고 귀가합니다."
+      }
+    ],
+    "restaurants": ["restaurant-10", "restaurant-11"],
+    "accommodations": ["accommodation-1"],
+    "bestWeather": ["clear", "cloudy", "rainy", "snowy"],
+    "tags": ["온천", "1박2일", "힐링", "리조트", "프리미엄"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-overnight-2",
+    "type": "spa-overnight",
+    "title": "포천 신북온천 1박2일 자연 힐링",
+    "description": "100년 역사의 온천과 산정호수, 아트밸리 등 포천의 자연을 만끽하는 1박2일 힐링 여행.",
+    "thumbnail": "/images/spa-overnight-2.jpg",
+    "duration": "1박2일",
+    "distance": 62,
+    "estimatedCost": {
+      "min": 150000,
+      "max": 250000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "포천 아트밸리",
+          "address": "경기도 포천시 신북면 아트밸리로 234",
+          "lat": 38.0345,
+          "lng": 127.3123,
+          "parkingInfo": "주차비 2,000원",
+          "entryFee": 5000
+        },
+        "activity": "아트밸리 관광 (1일차)",
+        "duration": "2시간",
+        "cost": 7000,
+        "description": "폐채석장을 활용한 아름다운 아트밸리를 관광합니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "포천 신북온천 펜션",
+          "address": "경기도 포천시 신북면 온천로 789",
+          "lat": 38.0123,
+          "lng": 127.2234,
+          "parkingInfo": "무료 주차",
+          "entryFee": 0
+        },
+        "activity": "펜션 체크인 & 온천",
+        "duration": "오후-저녁",
+        "cost": 120000,
+        "description": "펜션에 체크인하고 온천을 즐깁니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "포천 이동갈비",
+          "address": "경기도 포천시 이동면 이동로 234",
+          "lat": 37.9345,
+          "lng": 127.1989,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "이동갈비 저녁",
+        "duration": "1시간",
+        "cost": 30000,
+        "description": "포천 명물 이동갈비로 저녁을 먹습니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "산정호수",
+          "address": "경기도 포천시 영북면 산정호수로 411",
+          "lat": 38.0789,
+          "lng": 127.2678,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "산정호수 아침 산책 (2일차)",
+        "duration": "1시간",
+        "cost": 0,
+        "description": "아침 일찍 산정호수를 산책하며 신선한 공기를 마십니다."
+      }
+    ],
+    "restaurants": ["restaurant-14", "restaurant-15"],
+    "accommodations": ["accommodation-2"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["온천", "1박2일", "힐링", "자연", "호수"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-overnight-3",
+    "type": "spa-overnight",
+    "title": "화성 율암온천 & 제부도 1박2일",
+    "description": "게르마늄 온천과 제부도의 신비로운 바닷길을 경험하는 1박2일 코스. 바다와 온천을 함께 즐길 수 있습니다.",
+    "thumbnail": "/images/spa-overnight-3.jpg",
+    "duration": "1박2일",
+    "distance": 68,
+    "estimatedCost": {
+      "min": 150000,
+      "max": 200000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "제부도",
+          "address": "경기도 화성시 서신면 제부리 123",
+          "lat": 37.1823,
+          "lng": 126.6234,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "제부도 바닷길 관광 (1일차)",
+        "duration": "2시간",
+        "cost": 0,
+        "description": "물이 갈라지는 신비로운 바닷길을 걸어봅니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "화성 율암온천 펜션",
+          "address": "경기도 화성시 팔탄면 율암리 345",
+          "lat": 37.0567,
+          "lng": 127.0234,
+          "parkingInfo": "무료 주차",
+          "entryFee": 0
+        },
+        "activity": "펜션 체크인 & 온천",
+        "duration": "오후-저녁",
+        "cost": 100000,
+        "description": "펜션 체크인 후 게르마늄 온천을 즐깁니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "화성 한정식",
+          "address": "경기도 화성시 팔탄면 화성로 567",
+          "lat": 37.0589,
+          "lng": 127.0267,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "한정식 저녁",
+        "duration": "1시간",
+        "cost": 25000,
+        "description": "정성스러운 한정식으로 저녁을 먹습니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "화성 율암온천",
+          "address": "경기도 화성시 팔탄면 율암리 345",
+          "lat": 37.0567,
+          "lng": 127.0234,
+          "parkingInfo": "무료 주차",
+          "entryFee": 0
+        },
+        "activity": "아침 온천 & 체크아웃 (2일차)",
+        "duration": "오전",
+        "cost": 0,
+        "description": "아침 온천 후 체크아웃합니다."
+      }
+    ],
+    "restaurants": ["restaurant-12", "restaurant-13"],
+    "accommodations": ["accommodation-3"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["온천", "1박2일", "힐링", "바다", "제부도"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-overnight-4",
+    "type": "spa-overnight",
+    "title": "양평 블룸비스타 스파 1박2일 럭셔리",
+    "description": "프라이빗 고급 스파와 두물머리, 세미원, 레일바이크를 즐기는 럭셔리 1박2일 여행.",
+    "thumbnail": "/images/spa-overnight-4.jpg",
+    "duration": "1박2일",
+    "distance": 52,
+    "estimatedCost": {
+      "min": 250000,
+      "max": 350000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "두물머리",
+          "address": "경기도 양평군 양서면 양수리 452",
+          "lat": 37.5234,
+          "lng": 127.3456,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "두물머리 산책 (1일차)",
+        "duration": "1시간",
+        "cost": 0,
+        "description": "아름다운 두물머리를 산책합니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "양평 블룸비스타 호텔",
+          "address": "경기도 양평군 옥천면 블룸로 123",
+          "lat": 37.4234,
+          "lng": 127.4567,
+          "parkingInfo": "무료 주차",
+          "entryFee": 0
+        },
+        "activity": "호텔 체크인 & 스파",
+        "duration": "오후-저녁",
+        "cost": 200000,
+        "description": "럭셔리 호텔 체크인 후 프라이빗 스파를 즐깁니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "호텔 레스토랑",
+          "address": "경기도 양평군 옥천면 블룸로 123",
+          "lat": 37.4234,
+          "lng": 127.4567,
+          "parkingInfo": "숙박객 무료",
+          "entryFee": 0
+        },
+        "activity": "호텔 레스토랑 저녁",
+        "duration": "1시간",
+        "cost": 50000,
+        "description": "호텔 레스토랑에서 고급 식사를 합니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "세미원",
+          "address": "경기도 양평군 양서면 양수리 234",
+          "lat": 37.5123,
+          "lng": 127.3389,
+          "parkingInfo": "주차 가능",
+          "entryFee": 3000
+        },
+        "activity": "세미원 관광 (2일차)",
+        "duration": "1시간",
+        "cost": 3000,
+        "description": "아름다운 연꽃정원 세미원을 구경합니다."
+      }
+    ],
+    "restaurants": ["restaurant-18", "restaurant-19"],
+    "accommodations": ["accommodation-4"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["온천", "1박2일", "힐링", "럭셔리", "호텔"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "spa-overnight-5",
+    "type": "spa-overnight",
+    "title": "가평 온천 & 남이섬 1박2일",
+    "description": "가평 온천 리조트와 남이섬, 자라섬, 아침고요수목원을 둘러보는 낭만적인 1박2일 여행.",
+    "thumbnail": "/images/spa-overnight-5.jpg",
+    "duration": "1박2일",
+    "distance": 68,
+    "estimatedCost": {
+      "min": 180000,
+      "max": 280000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "남이섬",
+          "address": "경기도 가평군 가평읍 북한강변로 1024",
+          "lat": 37.7917,
+          "lng": 127.5261,
+          "parkingInfo": "주차비 3,000원",
+          "entryFee": 16000
+        },
+        "activity": "남이섬 관광 (1일차)",
+        "duration": "2-3시간",
+        "cost": 19000,
+        "description": "낭만적인 남이섬을 둘러봅니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "가평 온천 펜션",
+          "address": "경기도 가평군 청평면 온천로 567",
+          "lat": 37.7456,
+          "lng": 127.4123,
+          "parkingInfo": "무료 주차",
+          "entryFee": 0
+        },
+        "activity": "펜션 체크인 & 온천",
+        "duration": "오후-저녁",
+        "cost": 150000,
+        "description": "온천형 펜션에서 편안한 휴식을 취합니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "가평 닭갈비",
+          "address": "경기도 가평군 가평읍 가평대로 234",
+          "lat": 37.8312,
+          "lng": 127.5089,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "닭갈비 저녁",
+        "duration": "1시간",
+        "cost": 12000,
+        "description": "가평의 유명한 닭갈비를 먹습니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "아침고요수목원",
+          "address": "경기도 가평군 상면 수목원로 432",
+          "lat": 37.7234,
+          "lng": 127.3567,
+          "parkingInfo": "무료 주차",
+          "entryFee": 11000
+        },
+        "activity": "아침고요수목원 관광 (2일차)",
+        "duration": "2시간",
+        "cost": 11000,
+        "description": "아름다운 수목원을 산책하며 자연을 만끽합니다."
+      }
+    ],
+    "restaurants": ["restaurant-1", "restaurant-2"],
+    "accommodations": ["accommodation-5"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["온천", "1박2일", "힐링", "남이섬", "수목원"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "solo-drive-1",
+    "type": "solo-drive",
+    "title": "안산 시화방조제 & 대부도 드라이브",
+    "description": "11.2km의 시화방조제를 달리며 서해 바다와 시화호의 파노라마를 감상하고, 달전망대에서 일몰을 즐기는 드라이브 코스.",
+    "thumbnail": "/images/solo-drive-1.jpg",
+    "duration": "3-4시간",
+    "distance": 78,
+    "estimatedCost": {
+      "min": 30000,
+      "max": 50000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "오이도",
+          "address": "경기도 시흥시 정왕동 오이도로 123",
+          "lat": 37.3456,
+          "lng": 126.7234,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "드라이브 시작점",
+        "duration": "30분",
+        "cost": 0,
+        "description": "오이도에서 시화방조제 드라이브를 시작합니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "달전망대",
+          "address": "경기도 안산시 단원구 대부황금로 1927",
+          "lat": 37.2589,
+          "lng": 126.5234,
+          "parkingInfo": "무료 주차",
+          "entryFee": 0
+        },
+        "activity": "전망대 관람",
+        "duration": "1시간",
+        "cost": 0,
+        "description": "75m 높이의 달전망대에서 서해를 조망합니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "대부도 해산물 맛집",
+          "address": "경기도 안산시 단원구 대부북동 567",
+          "lat": 37.2234,
+          "lng": 126.5456,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "해산물 또는 바지락칼국수",
+        "duration": "1시간",
+        "cost": 15000,
+        "description": "대부도의 신선한 해산물을 맛봅니다."
+      }
+    ],
+    "restaurants": ["restaurant-20", "restaurant-21"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["드라이브", "혼자여행", "바다", "일몰", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "solo-drive-2",
+    "type": "solo-drive",
+    "title": "양평 두물머리 강변길 드라이브",
+    "description": "양수리부터 수입리까지 이어지는 강변 드라이브의 명소. 붉은 노을과 어우러진 강변 풍경이 아름다운 코스입니다.",
+    "thumbnail": "/images/solo-drive-2.jpg",
+    "duration": "4-5시간",
+    "distance": 55,
+    "estimatedCost": {
+      "min": 40000,
+      "max": 60000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "양수리",
+          "address": "경기도 양평군 양서면 양수리 123",
+          "lat": 37.5345,
+          "lng": 127.3234,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "드라이브 시작",
+        "duration": "30분",
+        "cost": 0,
+        "description": "양수리에서 강변길 드라이브를 시작합니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "두물머리",
+          "address": "경기도 양평군 양서면 양수리 452",
+          "lat": 37.5234,
+          "lng": 127.3456,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "두물머리 산책",
+        "duration": "1시간",
+        "cost": 0,
+        "description": "남한강과 북한강이 만나는 두물머리를 산책합니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "세미원",
+          "address": "경기도 양평군 양서면 양수리 234",
+          "lat": 37.5123,
+          "lng": 127.3389,
+          "parkingInfo": "주차 가능",
+          "entryFee": 3000
+        },
+        "activity": "세미원 관광",
+        "duration": "1시간",
+        "cost": 3000,
+        "description": "아름다운 연꽃정원을 감상합니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "양평 더덕정식",
+          "address": "경기도 양평군 양평읍 양평로 456",
+          "lat": 37.4878,
+          "lng": 127.4912,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "더덕정식 또는 메밀국수",
+        "duration": "1시간",
+        "cost": 12000,
+        "description": "건강한 더덕정식을 즐깁니다."
+      }
+    ],
+    "restaurants": ["restaurant-18", "restaurant-19"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["드라이브", "혼자여행", "강변", "일몰", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "solo-drive-3",
+    "type": "solo-drive",
+    "title": "파주 자유로 & 헤이리 예술마을",
+    "description": "자유로를 달리며 해방감을 느끼고, 헤이리 예술마을과 출판도시, 오두산통일전망대를 둘러보는 문화 드라이브 코스.",
+    "thumbnail": "/images/solo-drive-3.jpg",
+    "duration": "5-6시간",
+    "distance": 62,
+    "estimatedCost": {
+      "min": 50000,
+      "max": 70000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "가양대교 북단",
+          "address": "경기도 고양시 덕양구 행주로 123",
+          "lat": 37.5634,
+          "lng": 126.8234,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "자유로 드라이브 시작",
+        "duration": "30분",
+        "cost": 0,
+        "description": "자유로 드라이브를 시작합니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "헤이리 예술마을",
+          "address": "경기도 파주시 탄현면 헤이리마을길 70",
+          "lat": 37.7823,
+          "lng": 126.6934,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "예술마을 관광",
+        "duration": "2시간",
+        "cost": 0,
+        "description": "독특한 건축물과 갤러리를 둘러봅니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "오두산통일전망대",
+          "address": "경기도 파주시 탄현면 필승로 369",
+          "lat": 37.6545,
+          "lng": 126.6789,
+          "parkingInfo": "주차비 2,000원",
+          "entryFee": 3000
+        },
+        "activity": "통일전망대 관람",
+        "duration": "1시간",
+        "cost": 5000,
+        "description": "북한을 조망할 수 있는 전망대를 방문합니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "파주 장단콩 두부",
+          "address": "경기도 파주시 탄현면 헤이리마을길 234",
+          "lat": 37.7756,
+          "lng": 126.6845,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "두부 요리 또는 막국수",
+        "duration": "1시간",
+        "cost": 12000,
+        "description": "파주 특산 장단콩 두부를 맛봅니다."
+      }
+    ],
+    "restaurants": ["restaurant-22", "restaurant-23"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["드라이브", "혼자여행", "문화", "예술", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "solo-drive-4",
+    "type": "solo-drive",
+    "title": "화성 화옹방조제 & 제부도 드라이브",
+    "description": "10km의 직선 도로 화옹방조제를 달리고, 제부도 바닷길과 궁평항 일몰을 즐기는 바다 드라이브 코스.",
+    "thumbnail": "/images/solo-drive-4.jpg",
+    "duration": "4-5시간",
+    "distance": 72,
+    "estimatedCost": {
+      "min": 50000,
+      "max": 80000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "매향리",
+          "address": "경기도 화성시 우정읍 매향리 123",
+          "lat": 37.1234,
+          "lng": 126.7234,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "드라이브 시작",
+        "duration": "30분",
+        "cost": 0,
+        "description": "화옹방조제 드라이브를 시작합니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "제부도",
+          "address": "경기도 화성시 서신면 제부리 123",
+          "lat": 37.1823,
+          "lng": 126.6234,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "제부도 바닷길 체험",
+          "duration": "1-2시간",
+        "cost": 0,
+        "description": "물이 갈라지는 신비로운 바닷길을 걸어봅니다."
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "궁평항",
+          "address": "경기도 화성시 서신면 궁평리 456",
+          "lat": 37.1456,
+          "lng": 126.6789,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "궁평항 일몰 감상",
+        "duration": "1시간",
+        "cost": 0,
+        "description": "아름다운 일몰을 감상합니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "궁평항 대하구이",
+          "address": "경기도 화성시 서신면 궁평리 567",
+          "lat": 37.1467,
+          "lng": 126.6801,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "대하구이 또는 회 식사",
+        "duration": "1시간",
+        "cost": 35000,
+        "description": "신선한 해산물로 저녁을 먹습니다."
+      }
+    ],
+    "restaurants": ["restaurant-24", "restaurant-25"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["드라이브", "혼자여행", "바다", "일몰", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "solo-drive-5",
+    "type": "solo-drive",
+    "title": "남양주 광릉수목원로 & 국립수목원",
+    "description": "키 큰 가로수길을 달리며 자연을 만끽하고, 국립수목원과 봉선사를 방문하는 힐링 드라이브 코스.",
+    "thumbnail": "/images/solo-drive-5.jpg",
+    "duration": "4-5시간",
+    "distance": 48,
+    "estimatedCost": {
+      "min": 40000,
+      "max": 60000
+    },
+    "itinerary": [
+      {
+        "order": 1,
+        "location": {
+          "name": "광릉수목원로",
+          "address": "경기도 포천시 소흘읍 광릉수목원로 123",
+          "lat": 37.7456,
+          "lng": 127.1678,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "가로수길 드라이브",
+        "duration": "30분",
+        "cost": 0,
+        "description": "아름다운 가로수길을 달립니다."
+      },
+      {
+        "order": 2,
+        "location": {
+          "name": "국립수목원",
+          "address": "경기도 포천시 소흘읍 광릉수목원로 415",
+          "lat": 37.7567,
+          "lng": 127.1789,
+          "parkingInfo": "무료 주차",
+          "entryFee": 1000
+        },
+        "activity": "국립수목원 산책",
+        "duration": "2-3시간",
+        "cost": 1000,
+        "description": "다양한 식물과 숲을 감상합니다. (사전 예약 필요)"
+      },
+      {
+        "order": 3,
+        "location": {
+          "name": "봉선사",
+          "address": "경기도 남양주시 진접읍 봉선사길 32",
+          "lat": 37.6234,
+          "lng": 127.0567,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "봉선사 참배",
+        "duration": "30분",
+        "cost": 0,
+        "description": "고즈넉한 사찰을 둘러봅니다."
+      },
+      {
+        "order": 4,
+        "location": {
+          "name": "남양주 닭갈비",
+          "address": "경기도 남양주시 진접읍 남양주로 234",
+          "lat": 37.7123,
+          "lng": 127.1234,
+          "parkingInfo": "주차 가능",
+          "entryFee": 0
+        },
+        "activity": "닭갈비 또는 다산 유기농 정식",
+        "duration": "1시간",
+        "cost": 12000,
+        "description": "건강한 식사를 즐깁니다."
+      }
+    ],
+    "restaurants": ["restaurant-26", "restaurant-27"],
+    "bestWeather": ["clear", "cloudy"],
+    "tags": ["드라이브", "혼자여행", "자연", "수목원", "당일치기"],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

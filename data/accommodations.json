@@ -1,0 +1,107 @@
+[
+  {
+    "id": "accommodation-1",
+    "name": "이천 테르메덴 리조트",
+    "type": "리조트",
+    "location": {
+      "name": "이천 테르메덴",
+      "address": "경기도 이천시 모가면 사실로 984",
+      "lat": 37.1889,
+      "lng": 127.4234
+    },
+    "phone": "031-645-2000",
+    "priceRange": {
+      "min": 150000,
+      "max": 300000
+    },
+    "amenities": ["온천", "워터파크", "사우나", "레스토랑", "카페", "편의점", "무료주차"],
+    "rating": 4.6,
+    "reviewCount": 3456,
+    "images": ["/images/accommodation-1.jpg"],
+    "bookingUrl": "https://www.termeden.com"
+  },
+  {
+    "id": "accommodation-2",
+    "name": "포천 신북온천 펜션",
+    "type": "펜션",
+    "location": {
+      "name": "포천 신북온천 펜션",
+      "address": "경기도 포천시 신북면 온천로 789",
+      "lat": 38.0123,
+      "lng": 127.2234
+    },
+    "phone": "031-532-3000",
+    "priceRange": {
+      "min": 100000,
+      "max": 200000
+    },
+    "amenities": ["온천", "바베큐장", "족구장", "카페", "무료주차"],
+    "rating": 4.4,
+    "reviewCount": 1234,
+    "images": ["/images/accommodation-2.jpg"],
+    "bookingUrl": ""
+  },
+  {
+    "id": "accommodation-3",
+    "name": "화성 율암온천 펜션",
+    "type": "펜션",
+    "location": {
+      "name": "화성 율암온천 펜션",
+      "address": "경기도 화성시 팔탄면 율암리 345",
+      "lat": 37.0567,
+      "lng": 127.0234
+    },
+    "phone": "031-353-4000",
+    "priceRange": {
+      "min": 80000,
+      "max": 150000
+    },
+    "amenities": ["온천", "바베큐장", "노래방", "무료주차"],
+    "rating": 4.3,
+    "reviewCount": 892,
+    "images": ["/images/accommodation-3.jpg"],
+    "bookingUrl": ""
+  },
+  {
+    "id": "accommodation-4",
+    "name": "양평 블룸비스타 호텔",
+    "type": "호텔",
+    "location": {
+      "name": "양평 블룸비스타 스파",
+      "address": "경기도 양평군 옥천면 블룸로 123",
+      "lat": 37.4234,
+      "lng": 127.4567
+    },
+    "phone": "031-770-5000",
+    "priceRange": {
+      "min": 200000,
+      "max": 400000
+    },
+    "amenities": ["스파", "레스토랑", "카페", "피트니스", "수영장", "무료주차", "조식포함"],
+    "rating": 4.8,
+    "reviewCount": 2567,
+    "images": ["/images/accommodation-4.jpg"],
+    "bookingUrl": ""
+  },
+  {
+    "id": "accommodation-5",
+    "name": "가평 온천 펜션",
+    "type": "펜션",
+    "location": {
+      "name": "가평 온천 펜션",
+      "address": "경기도 가평군 청평면 온천로 567",
+      "lat": 37.7456,
+      "lng": 127.4123
+    },
+    "phone": "031-584-6000",
+    "priceRange": {
+      "min": 120000,
+      "max": 250000
+    },
+    "amenities": ["온천", "바베큐장", "계곡", "무료주차"],
+    "rating": 4.5,
+    "reviewCount": 1678,
+    "images": ["/images/accommodation-5.jpg"],
+    "bookingUrl": ""
+  }
+]
