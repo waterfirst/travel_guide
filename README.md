@@ -177,7 +177,7 @@ interface Course {
 
 ### 자동 배포
 - `main` 브랜치에 push 시 자동으로 GitHub Pages에 배포
-- 배포 URL: https://waterfirst.github.io/travel_guide/
+- 배포 URL: [https://waterfirst.github.io/travel_guide](https://playwrite-test-nu.vercel.app/)/
 
 ### 수동 배포
 ```bash
